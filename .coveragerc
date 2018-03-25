@@ -1,0 +1,29 @@
+[run]
+include = ./*
+
+[report]
+exclude_lines = 
+	pragma: no cover
+  logger.debug
+	
+	# Don't complain about missing debug-only code.
+	def __unicode__
+	def __repr__
+	if self\.debug
+	
+	# Don't complain if test don't hit defensive assertion code:
+	raise AssertionError
+	raise NotImplementedError
+	
+	# Don't complain if non-runnable code isn't run:
+	if 0:
+	if __name__ == .__main__.:
+
+omit = 
+	maceoutliner/settings.py
+    maceoutliner/dashboard.py
+	*/migrations/*
+	*/fixtures/*
+	*/test_*.py
+
+show_missing = True

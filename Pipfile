@@ -1,0 +1,65 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "*"
+django-environ = "*"
+whitenoise = "*"
+django-foundation-formtags = "*"
+django-braces = "*"
+django-model-utils = "*"
+pillow = "*"
+"argon2-cffi" = "*"
+django-allauth = "*"
+awesome-slugify = "*"
+pytz = "*"
+django-redis = "*"
+redis = "*"
+celery = "*"
+rcssmin = "*"
+django-compressor = "*"
+django-libsass = "*"
+rules = "*"
+django-rest-framework-rules = "*"
+django-rest-framework = "*"
+django-filter = "*"
+coreapi = "*"
+wheel = "*"
+gevent = "*"
+gunicorn = "*"
+"boto3" = "*"
+django-storages = "*"
+django-anymail = "*"
+raven = "*"
+"psycopg2-binary" = "*"
+
+
+[dev-packages]
+
+coverage = "*"
+django-coverage-plugin = "*"
+sphinx = "*"
+django-extensions = "*"
+werkzeug = "*"
+django-test-plus = "*"
+factory-boy = "*"
+django-debug-toolbar = "*"
+ipdb = "*"
+pytest-django = "*"
+pytest-sugar = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+pylint = "*"
+"flake8" = "*"
+sphinx-autobuild = "*"
+recommonmark = "*"
+
+
+[pipenv]
+
+keep_outdated = true
