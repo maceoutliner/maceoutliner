@@ -5,12 +5,11 @@ language: python
 
 python:
         - "3.6"
-        - "3.5"
 
 install:
         - pip install pipenv
         - pipenv install --dev
-        - pipenv install --dev coveralls
+        - pipenv run pip install coveralls
 script: 
         - pipenv run pytest
         - pipenv run coveralls
