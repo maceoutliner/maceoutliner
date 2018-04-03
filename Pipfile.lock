@@ -64,6 +64,8 @@
         },
         "boto3": {
             "hashes": [
+                "sha256:0f6e11b873c5a7127c17ca614487335e1b8f07f786053fc73c5c4aff81136e36",
+                "sha256:9f1b2fa42fea254ad2e97c0ec3c4ec4c9aaf814cc31fd77853ff5bc7776f939d"
             ],
             "version": "==1.6.22"
         },
@@ -723,7 +725,7 @@
                 "sha256:9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a",
                 "sha256:f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd"
             ],
-            "markers": "python_version < '3.4'",
+            "markers": "python_version == '2.7'",
             "version": "==1.5"
         },
         "certifi": {
