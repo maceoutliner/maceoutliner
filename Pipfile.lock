@@ -64,17 +64,17 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:0f6e11b873c5a7127c17ca614487335e1b8f07f786053fc73c5c4aff81136e36",
-                "sha256:9f1b2fa42fea254ad2e97c0ec3c4ec4c9aaf814cc31fd77853ff5bc7776f939d"
+                "sha256:f270f058f46aff9208fe29cffee79a46a7020cd186308c13c76db59d9e087fa6",
+                "sha256:523f23434b628dfead797c6aca53ba9805be791a695fa61e070c67c7d1b64864"
             ],
-            "version": "==1.6.22"
+            "version": "==1.6.23"
         },
         "botocore": {
             "hashes": [
-                "sha256:565102445ea5b9f32fe4681cf955d5eec3ea23f396d528dcfb24f45be7180003",
-                "sha256:59933693c329ce059d4a29bdd72c02db5c5119228d88d64f829454f4253feddd"
+                "sha256:fa84972784e55ae5f89c2d33b1b10b6ba028cb3733b350df7ed1461e0680ab40",
+                "sha256:158012844c7a385ef49a93354124878bee7f400e3597dea57202ea87faeefa90"
             ],
-            "version": "==1.9.22"
+            "version": "==1.9.23"
         },
         "celery": {
             "hashes": [
@@ -281,10 +281,10 @@
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:1f6baf40ed456ed2af6bd1a4ff8bbc3503cebea16509993aea2b7085bc097766",
-                "sha256:9f9e94e8d22b100ed3a43cee8c47a7ff7b185e778a1f2da9ec5c73fc4e081b87"
+                "sha256:bb9d74756a6b157bfb2e395b200b11f87c837f45f5e097b2308ed7a526e7dcbe",
+                "sha256:be299fb3f289e22ddca0ff88294924cd06aa3bcfa5043f72792d2a18d96dabe8"
             ],
-            "version": "==3.7.7"
+            "version": "==3.8.0"
         },
         "docutils": {
             "hashes": [
@@ -512,10 +512,10 @@
         },
         "python-dateutil": {
             "hashes": [
-                "sha256:891c38b2a02f5bb1be3e4793866c8df49c7d19baabf9c1bad62547e0b4866aca",
-                "sha256:95511bae634d69bc7329ba55e646499a842bc4ec342ad54a8cdb65645a0aad3c"
+                "sha256:3220490fb9741e2342e1cf29a503394fdac874bc39568288717ee67047ff29df",
+                "sha256:9d8074be4c993fbe4947878ce593052f71dac82932a677d49194d8ce9778002e"
             ],
-            "version": "==2.6.1"
+            "version": "==2.7.2"
         },
         "python3-openid": {
             "hashes": [
@@ -1176,10 +1176,10 @@
         },
         "python-dateutil": {
             "hashes": [
-                "sha256:891c38b2a02f5bb1be3e4793866c8df49c7d19baabf9c1bad62547e0b4866aca",
-                "sha256:95511bae634d69bc7329ba55e646499a842bc4ec342ad54a8cdb65645a0aad3c"
+                "sha256:3220490fb9741e2342e1cf29a503394fdac874bc39568288717ee67047ff29df",
+                "sha256:9d8074be4c993fbe4947878ce593052f71dac82932a677d49194d8ce9778002e"
             ],
-            "version": "==2.6.1"
+            "version": "==2.7.2"
         },
         "pytz": {
             "hashes": [
