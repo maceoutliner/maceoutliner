@@ -64,17 +64,17 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:c38bce3cc24b9bce12bac77545b2e094daa3822188760f49a2f94656129e9b8d",
-                "sha256:65e37bc86f2ac3b25c75c3c3daa92872d8249793006bee8b6961f2490d727a36"
+                "sha256:de999431f38d6955b2cd33c4a2a78401fca505c4905312adf911c6fd72c9ea99",
+                "sha256:91348d9e5c33c2c1aaaa238a3e97be4834c1aff85082ef6d9b249814be20bab4"
             ],
-            "version": "==1.7.0"
+            "version": "==1.7.1"
         },
         "botocore": {
             "hashes": [
-                "sha256:3f4d7551775072fb4b8552fc95413894d718ab6dde8ebfd4a3e5888ce19ec091",
-                "sha256:c1611160101e02ac3e6e209473dc7ba8978f9730fe5ba82697771606dabe2d1f"
+                "sha256:5cf3eebd04efbe01d6784bebbaeec3e7613255dfb71ec7215fd9098ce7e60a7d",
+                "sha256:bc1e6c36b1b570462e3b688b3bd3ba662e521cc21ce0a860f85f877179af77c7"
             ],
-            "version": "==1.10.0"
+            "version": "==1.10.1"
         },
         "celery": {
             "hashes": [
@@ -921,10 +921,10 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:938da96f2f5f50d82add1947958b7432e9f330cef7703210bffd1a783d7720ab",
-                "sha256:c785ab502b1a63624baeb89fedb873a118d4da6c9a796ae06e4f4aaef74e9ea0"
+                "sha256:85882f97d75122ff8cdfe129215a408085a26039527110c8d4a2b8a5e45b7639",
+                "sha256:a6ac981381b3f5f604b37a293369963485200e3639fb0404fa76092383c10c41"
             ],
-            "version": "==6.3.0"
+            "version": "==6.3.1"
         },
         "ipython-genutils": {
             "hashes": [
