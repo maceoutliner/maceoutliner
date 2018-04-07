@@ -38,6 +38,7 @@ django-anymail = "*"
 raven = "*"
 "psycopg2-binary" = "*"
 django-fiction-outlines = "*"
+django-fiction-outlines-api = "*"
 
 
 [dev-packages]
