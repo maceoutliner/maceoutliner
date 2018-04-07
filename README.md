@@ -5,7 +5,7 @@ maceoutliner
 
 A story structure outliner loosely based on Mary Robinette Kowal's MACE nesting, Dan Well's presentations on seven point story structure, and any hundred other outlining suggestions I've come across over the last few years.
 
-[![Build Status](https://travis-ci.org/maceoutliner/maceoutliner.svg?branch=master)](https://travis-ci.org/maceoutliner/maceoutliner)
+[![CircleCI](https://circleci.com/gh/maceoutliner/maceoutliner.svg?style=svg)](https://circleci.com/gh/maceoutliner/maceoutliner)
 [![Coverage Status](https://coveralls.io/repos/github/maceoutliner/maceoutliner/badge.svg)](https://coveralls.io/github/maceoutliner/maceoutliner)
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg)](https://github.com/pydanny/cookiecutter-django/)
 
