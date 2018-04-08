@@ -208,9 +208,9 @@
         },
         "django-fiction-outlines": {
             "hashes": [
-                "sha256:1654830c0eed3d9e820893c683e4afa595910e8e3c1f78b7422711b7bed3a697"
+                "sha256:72c090853a8d5a5e0a005f99c9ef4a5b93134818d8745bd6196ed00adbeaa411"
             ],
-            "version": "==0.1.3"
+            "version": "==0.1.4"
         },
         "django-fiction-outlines-api": {
             "hashes": [
@@ -1048,7 +1048,7 @@
                 "sha256:d32550b75a818b289bd4c1f96b60c89957811da205afcceab75bc8b4857ea5b3",
                 "sha256:db3e43032d23787d3e9aec8c7ef1e0d2c3c589d5f303477661ebda2ca6d4bfba"
             ],
-            "markers": "python_version == '3.3'",
+            "markers": "python_version in '2.6 2.7 3.2 3.3'",
             "version": "==2.3.0"
         },
         "pathtools": {
@@ -1333,7 +1333,7 @@
                 "sha256:b2c689d54e1144bbcfd191b0832980a21c2dbcf7b5ff7a66248a60c90e951eb8",
                 "sha256:d400a9344254803a2368533e4533a4200d21eb7b6b729c173bc38201a74db3f2"
             ],
-            "markers": "python_version <= '3.4'",
+            "markers": "python_version < '3.5'",
             "version": "==3.6.4"
         },
         "urllib3": {
