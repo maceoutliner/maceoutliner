@@ -57,6 +57,14 @@ LOCAL_APPS = [
     # custom users app
     'maceoutliner.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'taggit',
+    'treebeard',
+    'rules.apps.AutodiscoverRulesConfig',
+    'rest_framework',
+    'rest_framework_rules',
+    'fiction_outlines',
+    'fiction_outlines_api',
+
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -244,6 +252,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # AUTHENTICATION CONFIGURATION
 # ------------------------------------------------------------------------------
 AUTHENTICATION_BACKENDS = [
+    'rules.permissions.ObjectPermissionBackend',
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
