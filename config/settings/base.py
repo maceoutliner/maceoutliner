@@ -50,6 +50,17 @@ THIRD_PARTY_APPS = [
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+    'taggit',
+    'treebeard',
+    'rules.apps.AutodiscoverRulesConfig',
+    'rest_framework',
+    'rest_framework_rules',
+    'django_q',
+]
+
+MACEOUTLINER_APPS = [
+        'fiction_outlines',
+        'fiction_outlines_api',
 ]
 
 # Apps specific for this project go here.
@@ -57,18 +68,11 @@ LOCAL_APPS = [
     # custom users app
     'maceoutliner.users.apps.UsersConfig',
     # Your stuff: custom apps go here
-    'taggit',
-    'treebeard',
-    'rules.apps.AutodiscoverRulesConfig',
-    'rest_framework',
-    'rest_framework_rules',
-    'fiction_outlines',
-    'fiction_outlines_api',
 
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
-INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MACEOUTLINER_APPS + LOCAL_APPS
 
 # MIDDLEWARE CONFIGURATION
 # ------------------------------------------------------------------------------
@@ -275,14 +279,14 @@ LOGIN_URL = 'account_login'
 # SLUGLIFIER
 AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 
-########## CELERY
-INSTALLED_APPS += ['maceoutliner.taskapp.celery.CeleryConfig']
-CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='django://')
-if CELERY_BROKER_URL == 'django://':
-    CELERY_RESULT_BACKEND = 'redis://'
-else:
-    CELERY_RESULT_BACKEND = CELERY_BROKER_URL
-########## END CELERY
+# CELERY
+# INSTALLED_APPS += ['maceoutliner.taskapp.celery.CeleryConfig']
+# CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='django://')
+# if CELERY_BROKER_URL == 'django://':
+#    CELERY_RESULT_BACKEND = 'redis://'
+# else:
+#    CELERY_RESULT_BACKEND = CELERY_BROKER_URL
+# ######### END CELERY
 
 
 # django-compressor

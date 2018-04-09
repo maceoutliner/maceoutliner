@@ -13,14 +13,14 @@ from .base import *  # noqa
 
 # DEBUG
 # ------------------------------------------------------------------------------
-DEBUG = env.bool('DJANGO_DEBUG', default=True)
-TEMPLATES[0]['OPTIONS']['debug'] = DEBUG
+DEBUG = env.bool('DJANGO_DEBUG', default=True)  # noqa: F405
+TEMPLATES[0]['OPTIONS']['debug'] = DEBUG  # noqa: F405
 
 # SECRET CONFIGURATION
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 # Note: This key only used for development and testing.
-SECRET_KEY = env('DJANGO_SECRET_KEY', default=')i$cc:^%C=AKrX~<36!ywm&^sn-v$F8Q~6m5r)4ReyTR!<r[&*')
+SECRET_KEY = env('DJANGO_SECRET_KEY', default=')i$cc:^%C=AKrX~<36!ywm&^sn-v$F8Q~6m5r)4ReyTR!<r[&*')  # noqa: F405
 
 # Mail settings
 # ------------------------------------------------------------------------------
@@ -41,8 +41,8 @@ CACHES = {
 
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
-MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
-INSTALLED_APPS += ['debug_toolbar', ]
+MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]  # noqa: F405
+INSTALLED_APPS += ['debug_toolbar', ]  # noqa: F405
 
 INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', ]
 
@@ -61,10 +61,20 @@ INSTALLED_APPS += ['django_extensions', ]
 # ------------------------------------------------------------------------------
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
-########## CELERY
+# ######### CELERY
 # In development, all tasks will be executed locally by blocking until the task returns
-CELERY_ALWAYS_EAGER = True
-########## END CELERY
+# CELERY_ALWAYS_EAGER = True
+# ######### END CELERY
 
 # Your local stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+Q_CLUSTER = {
+    'name': 'DjangORM',
+    'workers': 4,
+    'timeout': 90,
+    'retry': 120,
+    'queue_limit': 50,
+    'bulk': 10,
+    'orm': 'default',
+    'sync': True,
+    }
