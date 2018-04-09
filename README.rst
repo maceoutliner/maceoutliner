@@ -128,5 +128,8 @@ documentation <http://cookiecutter-django.readthedocs.io/en/latest/deployment-on
    :target: https://circleci.com/gh/maceoutliner/maceoutliner
 .. |Coverage Status| image:: https://coveralls.io/repos/github/maceoutliner/maceoutliner/badge.svg
    :target: https://coveralls.io/github/maceoutliner/maceoutliner
+.. |Documentation Status| image:: https://readthedocs.org/projects/maceoutliner/badge/?version=latest
+   :target: http://maceoutliner.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
 .. |Built with Cookiecutter Django| image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
    :target: https://github.com/pydanny/cookiecutter-django/
