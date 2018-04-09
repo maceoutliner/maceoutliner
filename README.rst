@@ -8,7 +8,7 @@ nesting, Dan Well’s presentations on seven point story structure, and
 any hundred other outlining suggestions I’ve come across over the last
 few years.
 
-|CircleCI| |Coverage Status| |Built with Cookiecutter Django|
+|CircleCI| |Coverage Status| |Documentation Status| |Built with Cookiecutter Django|
 
 License
     BSD
