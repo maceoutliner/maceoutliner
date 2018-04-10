@@ -4,10 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% block title %}maceoutliner{% endblock title %}</title>
+    <title>{% block title %}MACEOutliner{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="apple-touch-icon" href="{% static 'images/Icon@120.png' %}">   
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/Icon@180.png' %}">  
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'images/Icon@152.png' %}">  
+    <link rel="apple-touch-icon" sizes="167x167" href="{% static 'images/Icon@167.png' %}">
+    <link rel="icon" type="image/png" href="{% static 'images/Icon@16.png' %}" sizes="16x16">  
+    <link rel="icon" type="image/png" href="{% static 'images/Icon@32.png' %}" sizes="32x32">  
+    <link rel="icon" type="image/png" href="{% static 'images/Icon@96.png' %}" sizes="96x96">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -35,7 +42,7 @@
     <div class="top-bar" id="menu">
       <div class="top-bar-left hide-for-small-only">
         <ul class="dropdown menu">
-          <li class="menu-text">maceoutliner</li>
+          <li class="menu-text"><img height="30" width="30" src="{% static 'images/Icon@120.png' %}" />&nbsp;&nbsp;MACEOutliner</li>
         </ul>
       </div>
 
