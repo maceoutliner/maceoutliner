@@ -56,6 +56,7 @@ THIRD_PARTY_APPS = [
     'rest_framework',
     'rest_framework_rules',
     'django_q',
+    'avatar',
 ]
 
 MACEOUTLINER_APPS = [
@@ -304,7 +305,13 @@ COMPRESS_CACHEABLE_PRECOMPILERS = (
 )
 
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
-ADMIN_URL = r'^admin/'
+ADMIN_URL = 'admin/'
 
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+
+# Avatar settings
+# ------------------------------------------------------------------------------
+AVATAR_EXPOSE_USERNAMES = False
+AVATAR_GRAVATAR_DEFAULT = 'identicon'
+AVATAR_CLEANUP_DELETED = True

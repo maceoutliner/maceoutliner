@@ -39,6 +39,7 @@ django-fiction-outlines = "*"
 django-fiction-outlines-api = "*"
 python-dateutil = "*"
 django-q = "*"
+django-avatar = "*"
 
 
 [dev-packages]
