@@ -49,6 +49,8 @@ module.exports = function (grunt) {
       },
     },
 
+      
+
     //see https://github.com/nDmitry/grunt-postcss
     postcss: {
       options: {
@@ -82,14 +84,27 @@ module.exports = function (grunt) {
       runDjango: {
         cmd: 'python <%= paths.manageScript %> runserver_plus'
       },
+      runDjangoNano: {
+          cmd: 'python <%= paths.manageScript %> runserver_plus 0.0.0.0:8000'
+        },
       runDjangoQ: {
           cmd: 'python <%= paths.manageScript %> qcluster'
       },
       runMailHog: {
         cmd: 'Mailhog'
       },
+        runMailHog_nano: {
+            cmd: '/data/bin/MailHog'
+        },
     }
   });
+
+    grunt.registerTask('serve_nanobox', [
+        'bgShell:runMailHog_nano',
+        'bgShell:runDjangoNano',
+        'bgShell:runDjangoQ',
+        'watch',
+    ]),
 
   grunt.registerTask('serve', [
     'bgShell:runMailHog',

@@ -138,8 +138,8 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [  # noqa: F405
 
 # Use the Heroku-style specification
 # Raises ImproperlyConfigured exception if DATABASE_URL not in os.environ
-DATABASES['default'] = env.db('DATABASE_URL')  # noqa: F405
-DATABASES['default']['CONN_MAX_AGE'] = env.int('CONN_MAX_AGE', default=60)  # noqa: F405
+# DATABASES['default'] = env.db('DATABASE_URL')  # noqa: F405
+# DATABASES['default']['CONN_MAX_AGE'] = env.int('CONN_MAX_AGE', default=60)  # noqa: F405
 
 # CACHING
 # ------------------------------------------------------------------------------
@@ -210,10 +210,9 @@ LOGGING = {
     },
 }
 # SENTRY_CELERY_LOGLEVEL = env.int('DJANGO_SENTRY_LOG_LEVEL', logging.INFO)
-# RAVEN_CONFIG = {
-#    'CELERY_LOGLEVEL': env.int('DJANGO_SENTRY_LOG_LEVEL', logging.INFO),
-#    'DSN': SENTRY_DSN
-# }
+RAVEN_CONFIG = {
+    'DSN': SENTRY_DSN
+}
 
 # Custom Admin URL, use {% url 'admin:index' %}
 ADMIN_URL = env('DJANGO_ADMIN_URL')  # noqa: F405
@@ -224,5 +223,10 @@ Q_CLUSTER = {
     'name': 'DJRedis',
     'workers': 4,
     'timeout': 90,
-    'django_redis': 'default'
+    'django_redis': 'default',
+    'error_reporter': {
+        'sentry': {
+            'dsn': SENTRY_DSN,
+        }
+    }
 }

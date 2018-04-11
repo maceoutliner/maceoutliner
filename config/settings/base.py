@@ -7,8 +7,13 @@ https://docs.djangoproject.com/en/dev/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
+import os
 import environ
 
+if 'DATABASE_URL' not in os.environ.keys() and os.environ['DATA_DB_USER'] == 'nanobox':
+    os.environ['DATABASE_URL'] = "postgres://{0}:{1}@{2}/gonano".format(os.environ['DATA_DB_USER'],
+                                                                        os.environ['DATA_DB_PASS'],
+                                                                        os.environ['DATA_DB_HOST'])
 ROOT_DIR = environ.Path(__file__) - 3  # (maceoutliner/config/settings/base.py - 3 = maceoutliner/)
 APPS_DIR = ROOT_DIR.path('maceoutliner')
 
@@ -124,10 +129,12 @@ MANAGERS = ADMINS
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
+
 DATABASES = {
     'default': env.db('DATABASE_URL', default='postgres:///maceoutliner'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
+DATABASES['default']['CONN_MAX_AGE'] = 600
 
 
 # GENERAL CONFIGURATION
@@ -316,3 +323,4 @@ AVATAR_EXPOSE_USERNAMES = False
 AVATAR_GRAVATAR_DEFAULT = 'identicon'
 AVATAR_CLEANUP_DELETED = True
 AVATAR_AUTO_GENERATE_SIZES = (80, 30)
+AVATAR_GRAVATAR_BASE_URL = '//www.gravatar.com/avatar/'
