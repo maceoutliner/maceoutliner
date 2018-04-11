@@ -58,6 +58,9 @@
   a {color: $white;}
   a:hover {color: $white;}
   li a:hover{background-color: get-color(secondary);}
+  img {display:inline; vertical-align: -10px;}
+//  li div div a {color: $white;}
+//  li div div a:hover {color: $white;}
 }
 
 /******** Colouring for messages from Django messages framework **********/

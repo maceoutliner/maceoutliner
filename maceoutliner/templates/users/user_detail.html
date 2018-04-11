@@ -1,17 +1,30 @@
 {% extends "base.html" %}
 {% load static %}
+{% load avatar_tags %}
+{% load i18n %}
 
-{% block title %}User: {{ object.username }}{% endblock %}
+{% block title %}{% trans "User:" %} {{ object.username }}{% endblock %}
 
 {% block content %}
 
   <div class="row">
     <div class="small-12 columns">
-
       <h2>{{ object.username }}</h2>
+      {% avatar object class="thumbnail" %}
+      <dl>
       {% if object.name %}
-        <p>{{ object.name }}</p>
+          <dt>Name:</dt>
+        <dd>{{ object.name }}</dd>
       {% endif %}
+        {% if object.bio %}
+        <dt>Bio:</dt>
+        <dd>{{ object.bio }}</dd>
+        {% endif %}
+        {% if object.homepage_url %}
+        <dt>Homepage:</dt>
+        <dd><a href="{{ object.homepage_url}}" title="{{ object.username }}'s homepage">{{ object.homepage_url }}</a></dd>
+            {% endif %}
+        </dl>
     </div>
   </div>
 
@@ -21,8 +34,9 @@
 
   <div class="small-12 columns">
     <div class="button-group">
-      <a class="button" href="{% url 'users:update' %}" role="button">My Info</a>
-      <a class="button" href="{% url 'account_email' %}" role="button">E-Mail</a>
+      <a class="button" href="{% url 'users:update' %}" role="button">{% trans "My Info" %}</a>
+      <a class="button" href="{% url 'account_email' %}" role="button">{% trans "E-Mail" %}</a>
+      <a class="button" href="{% url 'avatar_change' %}" role="button">{% trans "Change Avatar" %}</a>
     </div>
     <!-- Your Stuff: Custom user template urls -->
   </div>

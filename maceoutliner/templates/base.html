@@ -1,4 +1,4 @@
-{% load static i18n compress %}
+{% load static i18n compress avatar_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,32 +39,36 @@
       <div class="title-bar-title">Menu</div>
     </div>
 
-    <div class="top-bar" id="menu">
-      <div class="top-bar-left hide-for-small-only">
+    <div class="top-bar" data-equalizer="topbar" data-equalizer-on="medium" id="menu">
+      <div class="top-bar-left hide-for-small-only" data-equalizer-watch>
         <ul class="dropdown menu">
           <li class="menu-text"><img height="30" width="30" src="{% static 'images/Icon@120.png' %}" />&nbsp;&nbsp;MACEOutliner</li>
         </ul>
       </div>
 
-      <div class="top-bar-right">
-        <ul class="vertical medium-horizontal menu">
-          <li> <a href="{% url 'home' %}">Home</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
+      <div class="top-bar-right" data-equalizer-watch="topbar">
+        <ul class="vertical medium-horizontal menu" data-equalizer="menu">
+          <li data-equalizer-watch="menu"> <a href="{% url 'home' %}">Home</a></li>
+          <li data-equalizer-watch="menu"><a href="{% url 'about' %}">About</a></li>
           {% if request.user.is_authenticated %}
-            <li>
+          <li data-equalizer-watch="menu">
+              <div class="row">
+                  <div class="columns">
               {# URL provided by django-allauth/account/urls.py #}
-              <a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a>
-            </li>
-            <li>
+                      <a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a> {% avatar request.user 30 class="thumbnail" %}
+                  </div>
+              </div>
+          </li>
+          <li data-equalizer-watch="menu">
               {# URL provided by django-allauth/account/urls.py #}
               <a href="{% url 'account_logout' %}">{% trans "Sign out" %}</a>
-            </li>
-            {% else %}
-            <li>
+          </li>
+          {% else %}
+          <li data-equalizer-watch="menu">
               {# URL provided by django-allauth/account/urls.py #}
               <a id="sign-up-link" href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a>
-            </li>
-            <li>
+          </li>
+          <li data-equalizer-watch="menu">
               {# URL provided by django-allauth/account/urls.py #}
               <a id="log-in-link" href="{% url 'account_login' %}">{% trans "Sign In" %}</a>
             </li>
