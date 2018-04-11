@@ -80,7 +80,7 @@ module.exports = function (grunt) {
         bg: true
       },
       runDjango: {
-        cmd: 'python <%= paths.manageScript %> runserver'
+        cmd: 'python <%= paths.manageScript %> runserver_plus'
       },
       runDjangoQ: {
           cmd: 'python <%= paths.manageScript %> qcluster'
