@@ -7,6 +7,7 @@ botocore==1.10.4
 certifi==2018.1.18
 cffi==1.11.5
 chardet==3.0.4
+confusable-homoglyphs==3.0.0
 contextlib2==0.5.5;
 coreapi==2.3.3
 coreschema==0.0.4
@@ -48,6 +49,7 @@ markupsafe==1.0
 oauthlib==2.0.7
 pillow==5.1.0
 psycopg2==2.7.4
+pwned-passwords-django==1.1
 pycparser==2.18
 python-dateutil==2.6.1
 python3-openid==3.1.0
@@ -68,3 +70,4 @@ urllib3==1.22
 wcwidth==0.1.7
 wheel==0.31.0
 whitenoise==3.3.1
+-e git+https://github.com/ubernostrum/django-registration.git@f957d2824cf77820287da2993fca44d6445c592d#egg=registration

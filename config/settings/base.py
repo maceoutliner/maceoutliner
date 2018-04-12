@@ -91,6 +91,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'pwned_passwords_django.validators.PwnedPasswordsValidator',
 ]
 
 # MIGRATIONS CONFIGURATION
@@ -253,12 +254,18 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'OPTIONS': {
+            'min_length': 12,
+        },
     },
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+    {
+        'NAME': 'pwned_passwords_django.validators.PwnedPasswordsValidator',
     },
 ]
 
@@ -276,6 +283,7 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 
 ACCOUNT_ALLOW_REGISTRATION = env.bool('DJANGO_ACCOUNT_ALLOW_REGISTRATION', True)
+ACCOUNT_USERNAME_VALIDATORS = 'maceoutliner.users.validators.custom_validators'
 ACCOUNT_ADAPTER = 'maceoutliner.users.adapters.AccountAdapter'
 SOCIALACCOUNT_ADAPTER = 'maceoutliner.users.adapters.SocialAccountAdapter'
 
