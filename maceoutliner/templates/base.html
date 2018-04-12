@@ -52,12 +52,8 @@
           <li data-equalizer-watch="menu"><a href="{% url 'about' %}">About</a></li>
           {% if request.user.is_authenticated %}
           <li data-equalizer-watch="menu">
-              <div class="row">
-                  <div class="columns">
               {# URL provided by django-allauth/account/urls.py #}
-                      <a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a> {% avatar request.user 30 class="thumbnail" %}
-                  </div>
-              </div>
+              <a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %} {% avatar request.user 30 class="profile_circle_small" %}</a>
           </li>
           <li data-equalizer-watch="menu">
               {# URL provided by django-allauth/account/urls.py #}

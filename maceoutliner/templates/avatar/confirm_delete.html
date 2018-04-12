@@ -1,5 +1,5 @@
 {% extends "avatar/base.html" %}
-{% load i18n %}
+{% load i18n foundation_formtags %}
 
 {% block avatar_content %}
     <h1>{% trans "Please select the avatars that you would like to delete." %}</h1>
@@ -9,7 +9,7 @@
     {% else %}
         <form method="POST" action="{% url 'avatar_delete' %}">
             <ul>
-                {{ delete_avatar_form.as_ul }}
+                {{ delete_avatar_form|as_foundation }}
             </ul>
             <p>{% csrf_token %}<input type="submit" value="{% trans "Delete These" %}" /></p>
         </form>

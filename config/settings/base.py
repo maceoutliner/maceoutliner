@@ -10,10 +10,11 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 import os
 import environ
 
-if 'DATABASE_URL' not in os.environ.keys() and os.environ['DATA_DB_USER'] == 'nanobox':
-    os.environ['DATABASE_URL'] = "postgres://{0}:{1}@{2}/gonano".format(os.environ['DATA_DB_USER'],
-                                                                        os.environ['DATA_DB_PASS'],
-                                                                        os.environ['DATA_DB_HOST'])
+if 'DATABASE_URL' not in os.environ.keys() and 'DATA_DB_USER' in os.environ.keys():
+    if os.environ['DATA_DB_USER'] == 'nanobox':
+        os.environ['DATABASE_URL'] = "postgres://{0}:{1}@{2}/gonano".format(os.environ['DATA_DB_USER'],
+                                                                            os.environ['DATA_DB_PASS'],
+                                                                            os.environ['DATA_DB_HOST'])
 ROOT_DIR = environ.Path(__file__) - 3  # (maceoutliner/config/settings/base.py - 3 = maceoutliner/)
 APPS_DIR = ROOT_DIR.path('maceoutliner')
 
@@ -323,4 +324,4 @@ AVATAR_EXPOSE_USERNAMES = False
 AVATAR_GRAVATAR_DEFAULT = 'identicon'
 AVATAR_CLEANUP_DELETED = True
 AVATAR_AUTO_GENERATE_SIZES = (80, 30)
-AVATAR_GRAVATAR_BASE_URL = '//www.gravatar.com/avatar/'
+AVATAR_GRAVATAR_BASE_URL = 'https://www.gravatar.com/avatar/'

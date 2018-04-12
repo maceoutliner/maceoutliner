@@ -6,7 +6,7 @@
 
                 <h1>{% trans "Your current avatar: " %}</h1>
 
-                {% avatar user class="thumbnail" %}
+                {% avatar user class="profile_circle" %}
                 {% if not avatars %}
                 <p>{% trans "You haven't uploaded an avatar yet. Please upload one now." %}</p>
                 {% else %}
@@ -18,7 +18,7 @@
                 </form>
                 {% endif %}
                 <form enctype="multipart/form-data" class="form-horizontal" method="POST" action="{% url 'avatar_add' %}">
-                    {{ upload_avatar_form.as_p }}
+                    {{ upload_avatar_form|as_foundation }}
                     <p>{% csrf_token %}<input type="submit" value="{% trans "Upload New Image" %}" /></p>
                 </form>
 

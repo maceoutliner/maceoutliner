@@ -64,8 +64,8 @@ else:
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]  # noqa: F405
 INSTALLED_APPS += ['debug_toolbar', ]  # noqa: F405
 
-INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', ]
-ALLOWED_HOSTS = ['django.local']
+INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', '172.21.255.254']
+ALLOWED_HOSTS = ['django.local', 'localhost']
 
 DEBUG_TOOLBAR_CONFIG = {
     'DISABLE_PANELS': [

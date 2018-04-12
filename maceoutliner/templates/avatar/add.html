@@ -4,7 +4,7 @@
 {% block avatar_content %}
      
                 <h1>{% trans "Your current avatar: " %}</h1>
-                {% avatar user class="thumbnail" %}
+                {% avatar user class="profile_circle" %}
                 {% if not avatars %}
                 <p>{% trans "You haven't uploaded an avatar yet. Please upload one now." %}</p>
                 {% endif %}
