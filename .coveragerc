@@ -14,6 +14,8 @@ exclude_lines =
 	# Don't complain if test don't hit defensive assertion code:
 	raise AssertionError
 	raise NotImplementedError
+
+  logger.debug
 	
 	# Don't complain if non-runnable code isn't run:
 	if 0:
@@ -21,7 +23,8 @@ exclude_lines =
 
 omit = 
 	maceoutliner/settings.py
-    maceoutliner/dashboard.py
+  */tests/*
+  maceoutliner/dashboard.py
 	*/migrations/*
 	*/fixtures/*
 	*/test_*.py

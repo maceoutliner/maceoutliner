@@ -287,6 +287,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_ALLOW_REGISTRATION = env.bool('DJANGO_ACCOUNT_ALLOW_REGISTRATION', True)
 ACCOUNT_USERNAME_VALIDATORS = 'maceoutliner.users.validators.custom_validators'
 ACCOUNT_ADAPTER = 'maceoutliner.users.adapters.AccountAdapter'
+ACCOUNT_FORMS = {'signup': 'maceoutliner.users.forms.MaceOutlinerSignupForm'}
 SOCIALACCOUNT_ADAPTER = 'maceoutliner.users.adapters.SocialAccountAdapter'
 
 # Custom user app defaults

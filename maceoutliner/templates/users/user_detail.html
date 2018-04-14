@@ -13,9 +13,9 @@
       {% avatar object class="profile_circle" %}
       <dl>
           
-          <dt>Name:</dt>
-          {% if object.name %}
-          <dd>{{ object.name }}</dd>
+          <dt>Display Name:</dt>
+          {% if object.display_name %}
+          <dd>{{ object.display_name }}</dd>
           {% else %}
           <dd>{% trans "Unknown" %} 🔎 ❓</dd>
       {% endif %}
