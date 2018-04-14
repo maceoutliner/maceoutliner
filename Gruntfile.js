@@ -21,8 +21,8 @@ module.exports = function (grunt) {
       fonts: this.app + '/static/fonts',
       images: this.app + '/static/images',
       js: this.app + '/static/js',
-      manageScript: 'manage.py',
-    }
+      manageScript: 'manage.py'
+    };
   };
 
   grunt.initConfig({
@@ -44,9 +44,9 @@ module.exports = function (grunt) {
           ],
         options: {
           spawn: false,
-          livereload: true,
-        },
-      },
+          livereload: true
+        }
+      }
     },
 
       
@@ -95,31 +95,31 @@ module.exports = function (grunt) {
       },
         runMailHog_nano: {
             cmd: '/data/bin/MailHog'
-        },
+        }
     }
   });
 
-    grunt.registerTask('serve_nanobox', [
-        'bgShell:runMailHog_nano',
-        'bgShell:runDjangoNano',
-        'bgShell:runDjangoQ',
-        'watch',
-    ]),
+  grunt.registerTask('serve_nanobox', [
+      'bgShell:runMailHog_nano',
+      'bgShell:runDjangoNano',
+      'bgShell:runDjangoQ',
+      'watch',
+    ]);
 
   grunt.registerTask('serve', [
-    'bgShell:runMailHog',
-    'bgShell:runDjango',
-    'bgShell:runDjangoQ',
-    'watch'
+      'bgShell:runMailHog',
+      'bgShell:runDjango',
+      'bgShell:runDjangoQ',
+      'watch'
   ]);
 
   grunt.registerTask('build', [
-    'sass:dist',
-    'postcss'
+      'sass:dist',
+      'postcss'
   ]);
 
   grunt.registerTask('default', [
-    'build'
+      'build'
   ]);
 
 };
