@@ -70,4 +70,3 @@ wcwidth==0.1.7
 wheel==0.31.0
 whitenoise==3.3.1
 -e git+https://github.com/ubernostrum/django-registration.git@f957d2824cf77820287da2993fca44d6445c592d#egg=django-registration
--e git+https://github.com/ubernostrum/django-registration.git@f957d2824cf77820287da2993fca44d6445c592d#egg=registration
