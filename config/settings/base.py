@@ -63,6 +63,8 @@ THIRD_PARTY_APPS = [
     'rest_framework_rules',
     'django_q',
     'avatar',
+    'registration',
+    'pwned_passwords_django',
 ]
 
 MACEOUTLINER_APPS = [
@@ -91,7 +93,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'pwned_passwords_django.validators.PwnedPasswordsValidator',
+    # 'pwned_passwords_django.validators.PwnedPasswordsValidator',  Disabled because it makes runserver choke
 ]
 
 # MIGRATIONS CONFIGURATION
