@@ -7,21 +7,21 @@ name = "pypi"
 
 [packages]
 
-django = "*"
+Django = "*"
 django-environ = "*"
 whitenoise = "*"
 django-foundation-formtags = "*"
 django-braces = "*"
 django-model-utils = "*"
-pillow = "*"
-"argon2-cffi" = "*"
+Pillow = "*"
+"argon2_cffi" = "*"
 django-allauth = "*"
 awesome-slugify = "*"
 pytz = "*"
 django-redis = "*"
 redis = "*"
 rcssmin = "*"
-django-compressor = "*"
+django_compressor = "*"
 django-libsass = "*"
 rules = "*"
 django-rest-framework-rules = "*"
@@ -41,18 +41,17 @@ django-q = {extras = ["sentry"]}
 "psycopg2" = "*"
 pwned-passwords-django = "*"
 django-registration = {git = "https://github.com/ubernostrum/django-registration.git", editable = true, ref = "f957d2824cf77820287da2993fca44d6445c592d"}
-drf-yasg = {extras = ["validation"]}
 
 
 [dev-packages]
 
 coverage = "*"
-django-coverage-plugin = "*"
-sphinx = "*"
+django_coverage_plugin = "*"
+Sphinx = "*"
 django-extensions = "*"
-werkzeug = "*"
+Werkzeug = "*"
 django-test-plus = "*"
-factory-boy = "*"
+factory_boy = "*"
 django-debug-toolbar = "*"
 ipdb = "*"
 pytest-django = "*"
@@ -62,7 +61,7 @@ pytest-xdist = "*"
 pylint = "*"
 "flake8" = "*"
 sphinx-autobuild = "*"
-sphinx-rtd-theme = "*"
+sphinx_rtd_theme = "*"
 
 
 [pipenv]
