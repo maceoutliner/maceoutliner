@@ -1,6 +1,5 @@
 from test_plus import TestCase
 from maceoutliner.users.models import User
-from maceoutliner.users.adapters import SocialAccountAdapter
 
 
 class TestCustomSignup(TestCase):
