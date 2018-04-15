@@ -799,7 +799,7 @@
                 "sha256:9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a",
                 "sha256:f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd"
             ],
-            "markers": "python_version == '2.7'",
+            "markers": "python_version < '3.4'",
             "version": "==1.5"
         },
         "certifi": {
@@ -1120,7 +1120,7 @@
                 "sha256:d32550b75a818b289bd4c1f96b60c89957811da205afcceab75bc8b4857ea5b3",
                 "sha256:db3e43032d23787d3e9aec8c7ef1e0d2c3c589d5f303477661ebda2ca6d4bfba"
             ],
-            "markers": "python_version in '2.6 2.7 3.2 3.3'",
+            "markers": "python_version == '3.3'",
             "version": "==2.3.0"
         },
         "pathtools": {
