@@ -4,7 +4,7 @@ awesome-slugify==1.6.5
 blessed==1.14.2
 boto3==1.7.4
 botocore==1.10.4
-certifi==2018.1.18
+certifi==2018.4.16
 cffi==1.11.5
 chardet==3.0.4
 confusable-homoglyphs==3.0.0
@@ -13,13 +13,13 @@ coreschema==0.0.4
 defusedxml==0.5.0
 django==2.0.4
 django-allauth==0.35.0
-django-anymail==2.1
+django-anymail==2.2
 django-appconf==1.0.2
 django-avatar==4.1.0
 django-braces==1.12.0
 django-compressor==2.2
 django-environ==0.4.4
-django-fiction-outlines==0.2.0
+django-fiction-outlines==0.2.1
 django-fiction-outlines-api==0.1.2
 django-filter==1.1.0
 django-foundation-formtags==0.1.0
@@ -32,12 +32,11 @@ django-redis==4.9.0
 django-rest-framework-rules==0.1.1
 django-storages==1.6.6
 django-taggit==0.22.2
-django-treebeard==4.2.1
+django-treebeard==4.3
 djangorestframework==3.8.2
 docutils==0.14
 gevent==1.2.2
 greenlet==0.4.13
-gunicorn==19.7.1
 idna==2.6
 itypes==1.1.0
 jinja2==2.10
@@ -66,6 +65,7 @@ six==1.11.0
 unidecode==0.4.21
 uritemplate==3.0.0
 urllib3==1.22
+waitress==1.1.0
 wcwidth==0.1.7
 wheel==0.31.0
 whitenoise==3.3.1

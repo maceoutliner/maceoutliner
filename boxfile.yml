@@ -16,6 +16,9 @@ run.config:
     - nginx
     - py36-psycopg2
     - mailhog
+    - nginx
+    - py36-waitress
+
   cache_dirs:
     - node_modules
   extra_steps:
@@ -31,6 +34,29 @@ run.config:
     - package.json
   fs_watch: true
 
+web.main:
+  start:
+    nginx: nginx -c /app/etc/nginx.conf
+    django: python /app/run.py
+  stop_force:
+    django: true
+    nginx: true
+  stop_timeout:
+    nginx: 30
+    django: 30
+
+
+worker.main:
+  start: 'python manage.py qcluster'
+  stop_timeout: 30
+  stop_force: true
+
+deploy.config:
+  extra_steps:
+    - python manage.py collectstatic --noinput --clear
+  before_live:
+    web.main:
+      - python manage.py migrate --fake-initial
 
 data.db:
   image: nanobox/postgresql:10-beta

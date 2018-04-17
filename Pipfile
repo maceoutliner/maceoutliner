@@ -29,7 +29,6 @@ django-filter = "*"
 coreapi = "*"
 wheel = "*"
 gevent = "*"
-gunicorn = "*"
 "boto3" = "*"
 django-storages = "*"
 django-anymail = "*"
@@ -42,6 +41,8 @@ django-q = {extras = ["sentry"]}
 "psycopg2" = "*"
 pwned-passwords-django = "*"
 django-registration = {git = "https://github.com/ubernostrum/django-registration.git", editable = true, ref = "f957d2824cf77820287da2993fca44d6445c592d"}
+waitress = "*"
+
 
 
 [dev-packages]
