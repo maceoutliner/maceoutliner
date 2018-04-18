@@ -1,12 +1,9 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 Django = "*"
 django-environ = "*"
 whitenoise = "*"
@@ -41,9 +38,10 @@ django-q = {extras = ["sentry"]}
 "psycopg2" = "*"
 pwned-passwords-django = "*"
 django-registration = {git = "https://github.com/ubernostrum/django-registration.git", editable = true, ref = "f957d2824cf77820287da2993fca44d6445c592d"}
+waitress = "*"
+django-cookie-law = "*"
 
 [dev-packages]
-
 coverage = "*"
 django_coverage_plugin = "*"
 Sphinx = "*"
@@ -61,8 +59,7 @@ pylint = "*"
 "flake8" = "*"
 sphinx-autobuild = "*"
 sphinx_rtd_theme = "*"
-
+python-gettext = "*"
 
 [pipenv]
-
 keep_outdated = true

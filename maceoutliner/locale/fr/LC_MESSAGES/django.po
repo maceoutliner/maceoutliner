@@ -1,0 +1,389 @@
+# French translation for https://github.com/TyMaszWeb/django-cookie-law/.
+# Copyright (C) 2016 https://github.com/TyMaszWeb/
+# This file is distributed under the same license as the https://github.com/TyMaszWeb/django-cookie-law/ package.
+# Lilian Besson <naereen at crans dOt org>, 2016.
+# Cognat Laurent <laurent.cognat@netsach.fr>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-18 14:09-0400\n"
+"PO-Revision-Date: 2016-12-07 22:15+0200\n"
+"Last-Translator: Lilian Besson <naereen at crans dOt org>\n"
+"Language-Team: NETSACH <contact@netsach.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: maceoutliner/templates/account/account_inactive.html:5
+#: maceoutliner/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr ""
+
+#: maceoutliner/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:7
+msgid "Account"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:10
+msgid "E-mail Addresses"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:13
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:27
+msgid "Verified"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:29
+msgid "Unverified"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:31
+msgid "Primary"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:37
+msgid "Make Primary"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:38
+msgid "Re-send Verification"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:39
+msgid "Remove"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:46
+msgid "Warning:"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:46
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:51
+msgid "Add E-mail Address"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:56
+msgid "Add E-mail"
+msgstr ""
+
+#: maceoutliner/templates/account/email.html:66
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: maceoutliner/templates/account/email_confirm.html:6
+#: maceoutliner/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: maceoutliner/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: maceoutliner/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: maceoutliner/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: maceoutliner/templates/account/login.html:7
+#: maceoutliner/templates/account/login.html:11
+#: maceoutliner/templates/account/login.html:45
+#: maceoutliner/templates/base.html:69
+msgid "Sign In"
+msgstr ""
+
+#: maceoutliner/templates/account/login.html:16
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: maceoutliner/templates/account/login.html:26
+msgid "or"
+msgstr ""
+
+#: maceoutliner/templates/account/login.html:33
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: maceoutliner/templates/account/login.html:44
+msgid "Forgot Password?"
+msgstr ""
+
+#: maceoutliner/templates/account/logout.html:5
+#: maceoutliner/templates/account/logout.html:8
+#: maceoutliner/templates/account/logout.html:17
+msgid "Sign Out"
+msgstr ""
+
+#: maceoutliner/templates/account/logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: maceoutliner/templates/account/password_change.html:6
+#: maceoutliner/templates/account/password_change.html:9
+#: maceoutliner/templates/account/password_change.html:14
+#: maceoutliner/templates/account/password_reset_from_key.html:5
+#: maceoutliner/templates/account/password_reset_from_key.html:8
+#: maceoutliner/templates/account/password_reset_from_key_done.html:4
+#: maceoutliner/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset.html:7
+#: maceoutliner/templates/account/password_reset.html:11
+#: maceoutliner/templates/account/password_reset_done.html:6
+#: maceoutliner/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset.html:21
+msgid "Reset My Password"
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset.html:24
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset_from_key.html:18
+msgid "change password"
+msgstr ""
+
+#: maceoutliner/templates/account/password_reset_from_key.html:21
+#: maceoutliner/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: maceoutliner/templates/account/password_set.html:6
+#: maceoutliner/templates/account/password_set.html:9
+#: maceoutliner/templates/account/password_set.html:14
+msgid "Set Password"
+msgstr ""
+
+#: maceoutliner/templates/account/signup.html:6
+msgid "Signup"
+msgstr ""
+
+#: maceoutliner/templates/account/signup.html:9
+#: maceoutliner/templates/account/signup.html:19
+#: maceoutliner/templates/base.html:65
+msgid "Sign Up"
+msgstr ""
+
+#: maceoutliner/templates/account/signup.html:11
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: maceoutliner/templates/account/signup_closed.html:5
+#: maceoutliner/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr ""
+
+#: maceoutliner/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: maceoutliner/templates/account/verification_sent.html:5
+#: maceoutliner/templates/account/verification_sent.html:8
+#: maceoutliner/templates/account/verified_email_required.html:5
+#: maceoutliner/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: maceoutliner/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: maceoutliner/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: maceoutliner/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: maceoutliner/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: maceoutliner/templates/avatar/add.html:6
+#: maceoutliner/templates/avatar/change.html:7
+msgid "Your current avatar: "
+msgstr ""
+
+#: maceoutliner/templates/avatar/add.html:9
+#: maceoutliner/templates/avatar/change.html:11
+msgid "You haven't uploaded an avatar yet. Please upload one now."
+msgstr ""
+
+#: maceoutliner/templates/avatar/add.html:13
+#: maceoutliner/templates/avatar/change.html:22
+msgid "Upload New Image"
+msgstr ""
+
+#: maceoutliner/templates/avatar/change.html:17
+msgid "Choose new Default"
+msgstr ""
+
+#: maceoutliner/templates/avatar/confirm_delete.html:5
+msgid "Please select the avatars that you would like to delete."
+msgstr ""
+
+#: maceoutliner/templates/avatar/confirm_delete.html:8
+#, python-format
+msgid ""
+"You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
+"\">upload one</a> now."
+msgstr ""
+
+#: maceoutliner/templates/avatar/confirm_delete.html:14
+msgid "Delete These"
+msgstr ""
+
+#: maceoutliner/templates/base.html:56
+msgid "My Profile"
+msgstr ""
+
+#: maceoutliner/templates/base.html:60
+msgid "Sign out"
+msgstr ""
+
+#: maceoutliner/templates/cookielaw/banner.html:5
+msgid "COOKIE_INFO_OK"
+msgstr "J'accepte"
+
+#: maceoutliner/templates/cookielaw/banner.html:6
+msgid "COOKIE_INFO_HEADER"
+msgstr "Consentement d'utilisation des cookies"
+
+#: maceoutliner/templates/cookielaw/banner.html:10
+msgid "COOKIE_INFO_PARA"
+msgstr ""
+"Notre site enregistre de petits morceaux de texte (cookies) sur votre "
+"appareil danspour gérer les sessions de connexion ou si vous choisissez "
+"d'opter pour certains types de donnéescollection, sauf si vous soumettez un "
+"formulaire sur ce site ou si vous vous connectez pour commencerune session, "
+"les cookies ne seront pas stockés. Tous les cookies qui ont été créés "
+"temporairementpendant une session anonyme sont temporaires et régulièrement "
+"purgées.sont nécessaires pour maintenir les sessions de connexion et "
+"empêcher les attaques malveillantes.informations, s'il vous plaît se référer "
+"à notre politique de confidentialité."
+
+#: maceoutliner/templates/cookielaw/banner.html:13
+msgid "COOKIE_PRIV_LINKTEXT"
+msgstr ""
+
+#: maceoutliner/templates/users/user_detail.html:6
+msgid "User:"
+msgstr ""
+
+#: maceoutliner/templates/users/user_detail.html:20
+msgid "Unknown"
+msgstr ""
+
+#: maceoutliner/templates/users/user_detail.html:36
+msgid "My Info"
+msgstr ""
+
+#: maceoutliner/templates/users/user_detail.html:37
+msgid "E-Mail"
+msgstr ""
+
+#: maceoutliner/templates/users/user_detail.html:38
+msgid "Change Avatar"
+msgstr ""
+
+#: maceoutliner/users/forms.py:10 maceoutliner/users/models.py:13
+msgid "Display Name"
+msgstr ""
+
+#: maceoutliner/users/models.py:14
+msgid "🎶 What's your name, son? ALEXANDER HAMILTON"
+msgstr ""
+
+#: maceoutliner/users/models.py:15
+msgid "Bio"
+msgstr ""
+
+#: maceoutliner/users/models.py:15
+msgid "A few words about you."
+msgstr ""
+
+#: maceoutliner/users/models.py:16
+msgid "Homepage"
+msgstr ""
+
+#: maceoutliner/users/models.py:16
+msgid "Your home on the web."
+msgstr ""
+
+#: maceoutliner/users/validators.py:14
+msgid "This username is already taken. Please select another."
+msgstr ""

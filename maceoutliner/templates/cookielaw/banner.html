@@ -1,0 +1,16 @@
+{% load i18n %}
+
+<div id="CookielawBanner">
+    <div class="callout primary" data-closable>
+        <a class="button primary float-right" href="javascript:Cookielaw.createCookielawCookie();">{% trans "COOKIE_INFO_OK" %}</a>
+        <h5>{% trans "COOKIE_INFO_HEADER" %}</h5>
+        
+        <p>
+            
+            {% trans "COOKIE_INFO_PARA" %}
+        </p>
+        {# Need to insert proper link to privacy policy here #}
+        <p><a href="#">{% trans "COOKIE_PRIV_LINKTEXT" %}</a></p>
+    </div>
+</div>
+

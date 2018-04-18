@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2a920cdc1653bc0456f56342760df73e1576e343de2207fe3a2c355f7af8ade6"
+            "sha256": "043ddf9f303a13b24747cc963344a822b8d3aad5931c454f6a8b4f5752f52781"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -206,6 +206,13 @@
             "index": "pypi",
             "version": "==1.12.0"
         },
+        "django-classy-tags": {
+            "hashes": [
+                "sha256:792f9161d0e22d55b4fab6fc297bab8ab072ffaa3075b227613a6d8473624db8",
+                "sha256:f6d12f5a4df3e387795a0d9ef2836af389cae9a1fbebda035dac043d4722b1f7"
+            ],
+            "version": "==0.8.0"
+        },
         "django-compressor": {
             "hashes": [
                 "sha256:7732676cfb9d58498dfb522b036f75f3f253f72ea1345ac036434fdc418c2e57",
@@ -213,6 +220,13 @@
             ],
             "index": "pypi",
             "version": "==2.2"
+        },
+        "django-cookie-law": {
+            "hashes": [
+                "sha256:cb8500c5db6285e31fd2ce224eadcda9834e79fe39031fc79e69371fe4f9ad7b"
+            ],
+            "index": "pypi",
+            "version": "==2.0.1"
         },
         "django-environ": {
             "hashes": [
@@ -575,6 +589,13 @@
             ],
             "version": "==2.18"
         },
+        "pytest-runner": {
+            "hashes": [
+                "sha256:d23f117be39919f00dd91bffeb4f15e031ec797501b717a245e377aee0f577be",
+                "sha256:d987fec1e31287592ffe1cb823a8c613c533db4c6aaca0ee1191dbc91e2fcc61"
+            ],
+            "version": "==4.2"
+        },
         "python-dateutil": {
             "hashes": [
                 "sha256:891c38b2a02f5bb1be3e4793866c8df49c7d19baabf9c1bad62547e0b4866aca",
@@ -799,7 +820,7 @@
                 "sha256:9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a",
                 "sha256:f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd"
             ],
-            "markers": "python_version < '3.4'",
+            "markers": "python_version == '2.7'",
             "version": "==1.5"
         },
         "certifi": {
@@ -1275,6 +1296,13 @@
             ],
             "index": "pypi",
             "version": "==2.6.1"
+        },
+        "python-gettext": {
+            "hashes": [
+                "sha256:f40540324edc600e33df7aaf840aec7a4021d3b0615830918c231eb1d7163456"
+            ],
+            "index": "pypi",
+            "version": "==3.0"
         },
         "pytz": {
             "hashes": [

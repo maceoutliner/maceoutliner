@@ -60,7 +60,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-staticfiles/CACHE/*
+staticfiles/*
 # Flask stuff:
 instance/
 .webassets-cache

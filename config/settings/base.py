@@ -53,6 +53,7 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     'foundation_formtags',  # Form layouts
+    'cookielaw',
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
@@ -307,6 +308,11 @@ AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 # else:
 #    CELERY_RESULT_BACKEND = CELERY_BROKER_URL
 # ######### END CELERY
+
+# Translation
+# ------------------------------------------------------------------------------
+PROJ_LOCALE_DIR = APPS_DIR.path('locale')
+LOCALE_PATHS = [str(PROJ_LOCALE_DIR)]
 
 
 # django-compressor

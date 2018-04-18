@@ -1,4 +1,4 @@
-{% load static i18n compress avatar_tags %}
+{% load static i18n compress avatar_tags cookielaw_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -77,6 +77,7 @@
     <div class="row">
 
       <div class="medium-6 medium-offset-3 columns">
+          {% cookielaw_banner %}
         {% if messages %}
           {% for message in messages %}
 
@@ -134,6 +135,7 @@
       <!-- place project specific Javascript in this file -->
       {% compress js %}
       <script src="{% static 'js/project.js' %}"></script>
+      <script src="{% static 'cookielaw/js/cookielaw.js' %}"></script>
       {% endcompress %}
 
       <!-- Your stuff: Third-party javascript libraries go here -->
