@@ -31,13 +31,17 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # See https://docs.sentry.io/clients/python/integrations/django/
 INSTALLED_APPS += ['raven.contrib.django.raven_compat', ]  # noqa: F405
 
+RAVEN_MIDDLEWARE = ['raven.contrib.django.raven_compat.middleware.SentryResponseErrorIdMiddleware']
+MIDDLEWARE = RAVEN_MIDDLEWARE + MIDDLEWARE
+
 # Use Whitenoise to serve static files
 # See: https://whitenoise.readthedocs.io/
 WHITENOISE_MIDDLEWARE = ['whitenoise.middleware.WhiteNoiseMiddleware', ]
 MIDDLEWARE = WHITENOISE_MIDDLEWARE + MIDDLEWARE  # noqa: F405
-RAVEN_MIDDLEWARE = ['raven.contrib.django.raven_compat.middleware.SentryResponseErrorIdMiddleware']
-MIDDLEWARE = RAVEN_MIDDLEWARE + MIDDLEWARE
 
+# Add security middleware back in...
+
+MIDDLEWARE = SECURITY_MIDDLEWARE + MIDDLEWARE  # noqa: F405
 
 # SECURITY CONFIGURATION
 # ------------------------------------------------------------------------------
@@ -62,10 +66,8 @@ X_FRAME_OPTIONS = 'DENY'
 # ------------------------------------------------------------------------------
 # Hosts/domain names that are valid for this site
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['maceoutliner.com', ])  # noqa: F405
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['maceoutliner.com', 'app.maceoutliner.com'])  # noqa: F405
 # END SITE CONFIGURATION
-
-INSTALLED_APPS += ['gunicorn', ]
 
 
 # STORAGE CONFIGURATION
@@ -108,6 +110,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 COMPRESS_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 COMPRESS_URL = STATIC_URL  # noqa: F405
 COMPRESS_ENABLED = env.bool('COMPRESS_ENABLED', default=True)  # noqa: F405
+COMPRESS_OFFLINE = True
+
 
 # EMAIL
 # ------------------------------------------------------------------------------
@@ -203,6 +207,11 @@ LOGGING = {
             'propagate': False,
         },
         'django.security.DisallowedHost': {
+            'level': 'ERROR',
+            'handlers': ['console', 'sentry', ],
+            'propagate': False,
+        },
+        'maceoutliner.users': {
             'level': 'ERROR',
             'handlers': ['console', 'sentry', ],
             'propagate': False,

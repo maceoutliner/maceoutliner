@@ -61,6 +61,7 @@ else:
 
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
+MIDDLEWARE = SECURITY_MIDDLEWARE + MIDDLEWARE  # noqa: F405
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]  # noqa: F405
 INSTALLED_APPS += ['debug_toolbar', ]  # noqa: F405
 

@@ -54,6 +54,7 @@ worker.main:
 deploy.config:
   extra_steps:
     - python manage.py collectstatic --noinput --clear
+    - python manage.py compress
   before_live:
     web.main:
       - python manage.py migrate --fake-initial

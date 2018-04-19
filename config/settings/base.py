@@ -45,7 +45,7 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 
     # Useful template tags:
-    # 'django.contrib.humanize',
+    'django.contrib.humanize',
 
     # Admin
     'django.contrib.admin',
@@ -85,9 +85,11 @@ LOCAL_APPS = [
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MACEOUTLINER_APPS + LOCAL_APPS
 
 # MIDDLEWARE CONFIGURATION
+# Comment out security middleware and add to front later. Whitenoise needs to be after it.
 # ------------------------------------------------------------------------------
+SECURITY_MIDDLEWARE = ['django.middleware.security.SecurityMiddleware', ]
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
+    # 'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

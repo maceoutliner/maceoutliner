@@ -69,7 +69,7 @@ Q_CLUSTER = {
     'bulk': 10,
     'orm': 'default',
     'sync': True,
-    }
+}
 
 LOGGING = {
     'version': 1,
@@ -96,7 +96,7 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-        'users': {
+        'maceoutliner.users': {
             'handlers': ['console'],
             'level': 'DEBUG',
             'propagate': True,
