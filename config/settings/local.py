@@ -54,7 +54,7 @@ if REDIS_URL and CLIENT_CLASS:
 else:
     CACHES = {
         'default': {
-            'BACKEND':  env('CACHE_BACKEND', default='django.core.cache.backends.locmem.LocMemCache'),  # noqa: F405
+            'BACKEND': env('CACHE_BACKEND', default='django.core.cache.backends.locmem.LocMemCache'),  # noqa: F405
             'LOCATION': '',
         }
     }

@@ -69,8 +69,8 @@ THIRD_PARTY_APPS = [
 ]
 
 MACEOUTLINER_APPS = [
-        'fiction_outlines',
-        'fiction_outlines_api',
+    'fiction_outlines',
+    'fiction_outlines_api',
 ]
 
 # Apps specific for this project go here.

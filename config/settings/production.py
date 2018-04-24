@@ -33,7 +33,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 INSTALLED_APPS += ['raven.contrib.django.raven_compat', ]  # noqa: F405
 
 RAVEN_MIDDLEWARE = ['raven.contrib.django.raven_compat.middleware.SentryResponseErrorIdMiddleware']
-MIDDLEWARE = RAVEN_MIDDLEWARE + MIDDLEWARE
+MIDDLEWARE = RAVEN_MIDDLEWARE + MIDDLEWARE  # noqa: F405
 
 # Use Whitenoise to serve static files
 # See: https://whitenoise.readthedocs.io/
