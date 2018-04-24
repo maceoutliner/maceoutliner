@@ -16,6 +16,7 @@ Production settings for maceoutliner project.
 
 
 from .base import *  # noqa
+import os
 
 # SECRET CONFIGURATION
 # ------------------------------------------------------------------------------
@@ -147,8 +148,10 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [  # noqa: F405
 
 # CACHING
 # ------------------------------------------------------------------------------
-
-REDIS_LOCATION = '{0}/{1}'.format(env('REDIS_URL', default='redis://127.0.0.1:6379'), 0)  # noqa: F405
+REDIS_ENV_VAR = 'REDIS_URL'
+if "REDISCLOUD_URL" in os.environ.keys():
+    REDIS_ENV_VAR = 'REDISCLOUD_URL'
+REDIS_LOCATION = '{0}/{1}'.format(env(REDIS_ENV_VAR, default='redis://127.0.0.1:6379'), 0)  # noqa: F405
 # Heroku URL does not pass the DB number, so we parse it in
 CACHES = {
     'default': {
