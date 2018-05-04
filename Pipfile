@@ -16,7 +16,6 @@ django-model-utils = "*"
 pillow = "*"
 "argon2-cffi" = "*"
 django-allauth = "*"
-awesome-slugify = "*"
 pytz = "*"
 django-redis = "*"
 redis = "*"
@@ -44,6 +43,7 @@ django-registration = {git = "https://github.com/ubernostrum/django-registration
 waitress = "*"
 django-cookie-law = "*"
 brotlipy = "*"
+python-slugify = "*"
 
 
 [dev-packages]
