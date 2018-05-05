@@ -903,10 +903,10 @@
         },
         "factory-boy": {
             "hashes": [
-                "sha256:be2abc8092294e4097935a29b4e37f5b9ed3e4205e2e32df215c0315b625995e",
-                "sha256:bd5a096d0f102d79b6c78cef1c8c0b650f2e1a3ecba351c735c6d2df8dabd29c"
+                "sha256:3763ecabafb341df75b82f3a80c40747adef32d0288282c0c2db7a13e53c6944",
+                "sha256:d0f7209473312c99dfcf154069a1c559d83cfcae0979af43cf8779c9a9f645b3"
             ],
-            "version": "==2.10.0"
+            "version": "==2.11.0"
         },
         "faker": {
             "hashes": [
