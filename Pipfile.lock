@@ -70,17 +70,17 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:62bc94121c41d6c142b37cbbae8cb5fed98ae6aeadcafb32d8906fdb38555590",
-                "sha256:6c937cdfe15541ea4f239695e874533810c35ecf11e637c08d69d23757850ea4"
+                "sha256:f303b0feaabbe98b36ab12be1c641799104c935c9e0c9315b6fe53a39d668d79",
+                "sha256:a2d5c0a007ff50b4a08f402925495e18e41e336d22767a2b4fa21913fa875b2f"
             ],
-            "version": "==1.7.13"
+            "version": "==1.7.14"
         },
         "botocore": {
             "hashes": [
-                "sha256:1c893080011d446260db70bd79786621246efe658b402af20d2c84ea34c9d21e",
-                "sha256:dd354517354a2698a2549a2c50196f81ca0730655177bf9628e8de00ce1b792a"
+                "sha256:5e61efeb68688149fb8220f0bca6c8a89bc998dffb99673d0bf24cfe2f2e47a9",
+                "sha256:2d83993e60ba56ca3ddb48a0d4da86c1cfa1f687993abe760eeb0059d10e52f6"
             ],
-            "version": "==1.10.13"
+            "version": "==1.10.14"
         },
         "brotlipy": {
             "hashes": [
@@ -903,10 +903,10 @@
         },
         "factory-boy": {
             "hashes": [
-                "sha256:be2abc8092294e4097935a29b4e37f5b9ed3e4205e2e32df215c0315b625995e",
-                "sha256:bd5a096d0f102d79b6c78cef1c8c0b650f2e1a3ecba351c735c6d2df8dabd29c"
+                "sha256:3763ecabafb341df75b82f3a80c40747adef32d0288282c0c2db7a13e53c6944",
+                "sha256:d0f7209473312c99dfcf154069a1c559d83cfcae0979af43cf8779c9a9f645b3"
             ],
-            "version": "==2.10.0"
+            "version": "==2.11.0"
         },
         "faker": {
             "hashes": [
@@ -1085,9 +1085,10 @@
         },
         "port-for": {
             "hashes": [
-                "sha256:b16a84bb29c2954db44c29be38b17c659c9c27e33918dec16b90d375cc596f1c"
+                "sha256:247b4db1901aa3d9906258308e40dfbadf65275b27ca77faa0b9a876b7284970",
+                "sha256:47b5cb48f8e036497cd73b96de305cecb4070e9ecbc908724afcbd2224edccde"
             ],
-            "version": "==0.3.1"
+            "version": "==0.4"
         },
         "prompt-toolkit": {
             "hashes": [
@@ -1113,12 +1114,11 @@
         },
         "pycodestyle": {
             "hashes": [
-                "sha256:5ff2fbcbab997895ba9ead77e1b38b3ebc2e5c3b8a6194ef918666e4c790a00e",
-                "sha256:6c4245ade1edfad79c3446fadfc96b0de2759662dc29d07d80a6f27ad1ca6ba9",
-                "sha256:1ec08a51c901dfe44921576ed6e4c1f5b7ecbad403f871397feedb5eb8e4fa14",
-                "sha256:682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766"
+                "sha256:cbc619d09254895b0d12c2c691e237b2e91e9b2ecf5e84c26b35400f93dcfb83",
+                "sha256:74abc4e221d393ea5ce1f129ea6903209940c1ecd29e002e8c6933c2b21026e0",
+                "sha256:cbfca99bd594a10f674d0cd97a3d802a1fdef635d4361e1a2658de47ed261e3a"
             ],
-            "version": "==2.3.1"
+            "version": "==2.4.0"
         },
         "pyflakes": {
             "hashes": [
