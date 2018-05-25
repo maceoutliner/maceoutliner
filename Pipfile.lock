@@ -332,10 +332,9 @@
         },
         "django-rest-framework-rules": {
             "hashes": [
-                "sha256:c592306f5125bb0fdf990bc694d0f39f6f6a447de5636b4567d59987372eb2f7",
-                "sha256:c20923f0ccb9f083b81e1a8dbf078fdfbd01ee8b572a21b22d12d07cef07a885"
+                "sha256:a789bd15fcdf9f15ac8c9f999102c148a8c91f7feeb6bc9aec537ea675bcd36a"
             ],
-            "version": "==0.1.1"
+            "version": "==1.0.0"
         },
         "django-storages": {
             "hashes": [
