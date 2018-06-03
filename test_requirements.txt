@@ -1,4 +1,3 @@
--i
 alabaster==0.7.10
 apipkg==1.4
 appdirs==1.4.3
