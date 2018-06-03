@@ -5,14 +5,18 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('users', '0005_auto_20180414_1350'),
-    ]
+    dependencies = [("users", "0005_auto_20180414_1350")]
 
     operations = [
         migrations.AlterField(
-            model_name='user',
-            name='display_name',
-            field=models.CharField(blank=True, help_text="🎶 What's your name, son? ALEXANDER HAMILTON", max_length=255, null=True, verbose_name='Display Name'),
-        ),
+            model_name="user",
+            name="display_name",
+            field=models.CharField(
+                blank=True,
+                help_text="🎶 What's your name, son? ALEXANDER HAMILTON",
+                max_length=255,
+                null=True,
+                verbose_name="Display Name",
+            ),
+        )
     ]

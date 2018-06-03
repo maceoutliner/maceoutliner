@@ -5,19 +5,21 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('users', '0002_auto_20180312_1455'),
-    ]
+    dependencies = [("users", "0002_auto_20180312_1455")]
 
     operations = [
         migrations.AddField(
-            model_name='user',
-            name='bio',
-            field=models.CharField(blank=True, max_length=255, null=True, verbose_name='Bio'),
+            model_name="user",
+            name="bio",
+            field=models.CharField(
+                blank=True, max_length=255, null=True, verbose_name="Bio"
+            ),
         ),
         migrations.AddField(
-            model_name='user',
-            name='homepage_url',
-            field=models.URLField(blank=True, null=True, verbose_name='Your home on the web.'),
+            model_name="user",
+            name="homepage_url",
+            field=models.URLField(
+                blank=True, null=True, verbose_name="Your home on the web."
+            ),
         ),
     ]

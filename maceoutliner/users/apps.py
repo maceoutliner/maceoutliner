@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class UsersConfig(AppConfig):
-    name = 'maceoutliner.users'
+    name = "maceoutliner.users"
     verbose_name = "Users"
 
     def ready(self):

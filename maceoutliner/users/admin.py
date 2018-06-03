@@ -12,9 +12,9 @@ class MyUserChangeForm(UserChangeForm):
 
 class MyUserCreationForm(UserCreationForm):
 
-    error_message = UserCreationForm.error_messages.update({
-        'duplicate_username': 'This username has already been taken.'
-    })
+    error_message = UserCreationForm.error_messages.update(
+        {"duplicate_username": "This username has already been taken."}
+    )
 
     class Meta(UserCreationForm.Meta):
         model = User
@@ -25,7 +25,7 @@ class MyUserCreationForm(UserCreationForm):
             User.objects.get(username=username)
         except User.DoesNotExist:
             return username
-        raise forms.ValidationError(self.error_messages['duplicate_username'])
+        raise forms.ValidationError(self.error_messages["duplicate_username"])
 
 
 @admin.register(User)
@@ -33,7 +33,7 @@ class MyUserAdmin(AuthUserAdmin):
     form = MyUserChangeForm
     add_form = MyUserCreationForm
     fieldsets = (
-        ('User Profile', {'fields': ('display_name',)}),
+        ("User Profile", {"fields": ("display_name",)}),
     ) + AuthUserAdmin.fieldsets
-    list_display = ('username', 'display_name', 'is_superuser')
-    search_fields = ['display_name']
+    list_display = ("username", "display_name", "is_superuser")
+    search_fields = ["display_name"]

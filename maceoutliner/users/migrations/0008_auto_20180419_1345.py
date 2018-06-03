@@ -7,14 +7,14 @@ import fiction_outlines.models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('users', '0007_auto_20180419_0630'),
-    ]
+    dependencies = [("users", "0007_auto_20180419_0630")]
 
     operations = [
         migrations.AlterField(
-            model_name='user',
-            name='modified',
-            field=fiction_outlines.models.AutoLastModifiedField(default=django.utils.timezone.now, editable=False),
-        ),
+            model_name="user",
+            name="modified",
+            field=fiction_outlines.models.AutoLastModifiedField(
+                default=django.utils.timezone.now, editable=False
+            ),
+        )
     ]

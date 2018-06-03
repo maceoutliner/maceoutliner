@@ -5,14 +5,10 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('users', '0004_auto_20180413_2215'),
-    ]
+    dependencies = [("users", "0004_auto_20180413_2215")]
 
     operations = [
         migrations.RenameField(
-            model_name='user',
-            old_name='name',
-            new_name='display_name',
-        ),
+            model_name="user", old_name="name", new_name="display_name"
+        )
     ]

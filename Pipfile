@@ -1,12 +1,9 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 django = "*"
 django-environ = "*"
 whitenoise = "*"
@@ -45,9 +42,7 @@ django-cookie-law = "*"
 brotlipy = "*"
 python-slugify = "*"
 
-
 [dev-packages]
-
 coverage = "*"
 django-coverage-plugin = "*"
 sphinx = "*"
@@ -66,8 +61,7 @@ pylint = "*"
 sphinx-autobuild = "*"
 sphinx-rtd-theme = "*"
 python-gettext = "*"
-
+black = "*"
 
 [pipenv]
-
 keep_outdated = true
