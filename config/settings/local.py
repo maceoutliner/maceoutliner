@@ -20,7 +20,7 @@ TEMPLATES[0]["OPTIONS"]["debug"] = DEBUG  # noqa: F405
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 # Note: This key only used for development and testing.
-SECRET_KEY = env(
+SECRET_KEY = env(  # noqa: F405
     "DJANGO_SECRET_KEY", default=")i$cc:^%C=AKrX~<36!ywm&^sn-v$F8Q~6m5r)4ReyTR!<r[&*"
 )  # noqa: F405
 
@@ -54,7 +54,7 @@ if REDIS_URL and CLIENT_CLASS:
 else:
     CACHES = {
         "default": {
-            "BACKEND": env(
+            "BACKEND": env(  # noqa: F405
                 "CACHE_BACKEND", default="django.core.cache.backends.locmem.LocMemCache"
             ),  # noqa: F405
             "LOCATION": "",

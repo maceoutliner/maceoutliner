@@ -71,7 +71,7 @@ X_FRAME_OPTIONS = "DENY"
 # ------------------------------------------------------------------------------
 # Hosts/domain names that are valid for this site
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list(
+ALLOWED_HOSTS = env.list(  # noqa: F405
     "DJANGO_ALLOWED_HOSTS", default=["maceoutliner.com", "app.maceoutliner.com"]
 )  # noqa: F405
 # END SITE CONFIGURATION
@@ -120,11 +120,11 @@ COMPRESS_OFFLINE = True
 
 # EMAIL
 # ------------------------------------------------------------------------------
-DEFAULT_FROM_EMAIL = env(
+DEFAULT_FROM_EMAIL = env(  # noqa:F405
     "DJANGO_DEFAULT_FROM_EMAIL",  # noqa: F405
     default="maceoutliner <noreply@maceoutliner.com>",
 )
-EMAIL_SUBJECT_PREFIX = env(
+EMAIL_SUBJECT_PREFIX = env(  # noqa:F405
     "DJANGO_EMAIL_SUBJECT_PREFIX", default="[maceoutliner]"
 )  # noqa: F405
 SERVER_EMAIL = env("DJANGO_SERVER_EMAIL", default=DEFAULT_FROM_EMAIL)  # noqa: F405
@@ -165,7 +165,7 @@ REDIS_ENV_VAR = "REDIS_URL"
 if "REDISCLOUD_URL" in os.environ.keys():
     REDIS_ENV_VAR = "REDISCLOUD_URL"
 REDIS_LOCATION = "{0}/{1}".format(
-    env(REDIS_ENV_VAR, default="redis://127.0.0.1:6379"), 0
+    env(REDIS_ENV_VAR, default="redis://127.0.0.1:6379"), 0  # noqa:F405
 )  # noqa: F405
 # Heroku URL does not pass the DB number, so we parse it in
 CACHES = {
@@ -183,7 +183,7 @@ CACHES = {
 
 # Sentry Configuration
 SENTRY_DSN = env("DJANGO_SENTRY_DSN")  # noqa: F405
-SENTRY_CLIENT = env(
+SENTRY_CLIENT = env(  # noqa:F405
     "DJANGO_SENTRY_CLIENT", default="raven.contrib.django.raven_compat.DjangoClient"
 )  # noqa: F405
 LOGGING = {
