@@ -51,10 +51,10 @@
         },
         "blessed": {
             "hashes": [
-                "sha256:2342125fd4f27f00d2677798bd06be2e6a1178e77c0298080abe4f720070693b",
-                "sha256:713dd9466a469cf26d5a26159c572d69a25ab71c8cb8e1bcd35a301c803978c7"
+                "sha256:9a0a98c7070b016341ae0300415deeda930a340ef7961d9b920a5cb200a601e2",
+                "sha256:777b0b6b5ce51f3832e498c22bc6a093b6b5f99148c7cbf866d26e2dec51ef21"
             ],
-            "version": "==1.14.2"
+            "version": "==1.15.0"
         },
         "boto3": {
             "hashes": [
