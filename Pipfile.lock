@@ -297,11 +297,10 @@
         },
         "django-q": {
             "hashes": [
-                "sha256:0a7ddc487f21ae1cae05ab0dba973c90fbf72673eb36979bbcdb36beb2a079ef",
-                "sha256:1c2db53da57d114f4766bad86893eb26e56a065a8fe8486ecadf1758e36c81e0"
+                "sha256:229dd0806088a3606bad999749c5260b0fb926db7181f75620d0e76f35f1ab88",
+                "sha256:b958904887bef8948761d419f4d8258483be4f75884833d5d75e5ccd54ecb89e"
             ],
-            "index": "pypi",
-            "version": "==0.9.4"
+            "version": "==1.0.1"
         },
         "django-q-sentry": {
             "hashes": [
