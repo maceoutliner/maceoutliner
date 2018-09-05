@@ -1197,11 +1197,10 @@
         },
         "pylint": {
             "hashes": [
-                "sha256:0990347c0f605927fadb2a9366a0b3d40bd19eb44e4312f0a1ef729a389b2f40",
-                "sha256:19b902f93f2dc3fa45565e54b88702b28379be40107f509a8516dde152460d1f"
+                "sha256:1d6d3622c94b4887115fe5204982eee66fdd8a951cf98635ee5caee6ec98c3ec",
+                "sha256:31142f764d2a7cd41df5196f9933b12b7ee55e73ef12204b648ad7e556c119fb"
             ],
-            "index": "pypi",
-            "version": "==2.0.0.dev1"
+            "version": "==2.1.1"
         },
         "pyparsing": {
             "hashes": [
