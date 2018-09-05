@@ -146,10 +146,10 @@
         },
         "confusable-homoglyphs": {
             "hashes": [
-                "sha256:946a3a65b73117b1853f4ef253f15443502c92e9df1fc7786e868450cb487ffb",
-                "sha256:b86d61ceb8ed350a3defe9eaa99a68eb9b08f89bfbb4ff4e8cbffbffbc26733c"
+                "sha256:e3ce611028d882b74a5faa69e3cbb5bd4dcd9f69936da6e73d33eda42c917944",
+                "sha256:3b4a0d9fa510669498820c91a0bfc0c327568cecec90648cf3819d4a6fc6a751"
             ],
-            "version": "==3.1.1"
+            "version": "==3.2.0"
         },
         "coreapi": {
             "hashes": [
