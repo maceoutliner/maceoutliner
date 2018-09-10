@@ -254,10 +254,10 @@
         },
         "django-fiction-outlines-api": {
             "hashes": [
-                "sha256:f73a2fa7c0513a7c7d2992422c8eb3cde62a7ec3e4f1f9f2df732b4740e8aed8"
+                "sha256:ea987baf4a6601be6a37c9069732273172ae8915223668e102a017ee730a7b09",
+                "sha256:0d38b16d8bf98eb946804cdab45b444007bd6d4bfe668a60f8592e1a35324861"
             ],
-            "index": "pypi",
-            "version": "==0.1.2"
+            "version": "==0.2.0"
         },
         "django-filter": {
             "hashes": [
