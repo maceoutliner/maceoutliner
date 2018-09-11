@@ -290,10 +290,10 @@
         },
         "django-picklefield": {
             "hashes": [
-                "sha256:57e4349c7f75eab08fe7ceb11e7135644fdf771e2777a754db4f07e5c63c191f",
-                "sha256:61e3ba7f6df82d8df9e6be3a8c55ef589eb3bf926c3d25d2b7949b07eae78354"
+                "sha256:8d1de6be099044ae61e55998b35de18a57499b946fe45781077f5cec4f73f0e0",
+                "sha256:ce7fee5c6558fe5dc8924993d994ccde75bb75b91cd82787cbd4c92b95a69f9c"
             ],
-            "version": "==1.0.0"
+            "version": "==1.1.0"
         },
         "django-q": {
             "hashes": [
