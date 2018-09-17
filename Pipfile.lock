@@ -572,11 +572,10 @@
         },
         "pwned-passwords-django": {
             "hashes": [
-                "sha256:3944181fddde4eb496475954f90ad9f604e66dea9fa6db4da08e657252aa9d11",
-                "sha256:ad868e459cf4796a010d93e0538905c1c6bc956fd0d1788d793bdf97bae56703"
+                "sha256:dc3dd5c34a1d2e8f51012465304e34364e0f1e57956e39a56b3f5144e9221409",
+                "sha256:30aa06829dd35463192f6014c8bedd3c40397e3dedaf494a53b07fa5550e4589"
             ],
-            "index": "pypi",
-            "version": "==1.1"
+            "version": "==1.2.1"
         },
         "pycparser": {
             "hashes": [
