@@ -774,10 +774,10 @@
         },
         "astroid": {
             "hashes": [
-                "sha256:b7787562a4757d7101ca6270a06e5246c1dcd1a4851d4bb2421a6baae4b09c1b",
-                "sha256:f14913e18b71e6a86e05aeec80b8bd09286dff8a6e34c3cc71d67fa3d726aec7"
+                "sha256:292fa429e69d60e4161e7612cb7cc8fa3609e2e309f80c224d93a76d5e7b58be",
+                "sha256:c7013d119ec95eb626f7a2011f0b63d0c9a095df9ad06d8507b37084eada1a8d"
             ],
-            "version": "==2.0.0.dev1"
+            "version": "==2.0.4"
         },
         "atomicwrites": {
             "hashes": [
