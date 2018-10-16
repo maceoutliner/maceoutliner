@@ -58,10 +58,10 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:3b2cab368572ee987a6236321ddea491e4253c819009c87ebc9e42e60371e3ae",
-                "sha256:7834eba53c6bedea21eb76f25a39e477dede3a24aeb51ff19c0248ea8348f007"
+                "sha256:bc93eb62043b21e48b0515380867408fd0c63227d7dffacbbd443f6daa772a53",
+                "sha256:11514364cf7243822e8035b69f85512b0f9623a182867aedd79521bebc88fef5"
             ],
-            "version": "==1.12.4"
+            "version": "==1.12.24"
         },
         "brotlipy": {
             "hashes": [
