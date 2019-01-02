@@ -629,9 +629,9 @@
         },
         "python-slugify": {
             "hashes": [
-                "sha256:7723daf30996db26573176bddcdf5fcb98f66dc70df05c9cb29f2c79b8193245"
+                "sha256:4e867cb16712f4d660b74fd55ba2ef4b7431ccd6aafec0a6d41a398f4cbc2de4"
             ],
-            "version": "==1.2.6"
+            "version": "==2.0.0"
         },
         "python3-openid": {
             "hashes": [
