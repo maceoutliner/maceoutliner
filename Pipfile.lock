@@ -864,10 +864,11 @@
         },
         "configparser": {
             "hashes": [
-                "sha256:5308b47021bc2340965c371f0f058cc6971a04502638d4244225c49d80db273a"
+                "sha256:4ccfcb133044514fc26c4e419f6e9179722c81bfdd58bb5569f8dfe4811af391",
+                "sha256:c18932d9e6b36de2914e030d75ead1a4b9908c614568a95185b2e02c256e6a1f",
+                "sha256:2d5b692edc5f7dd0bddb974fea0916e5e5c798cfc5c66b05f81fac681e9f29cc"
             ],
-            "markers": "python_version < '3.2'",
-            "version": "==3.5.0"
+            "version": "==3.5.2"
         },
         "coverage": {
             "hashes": [
