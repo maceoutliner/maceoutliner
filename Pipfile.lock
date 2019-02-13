@@ -255,10 +255,10 @@
         },
         "django-fiction-outlines-api": {
             "hashes": [
-                "sha256:ea987baf4a6601be6a37c9069732273172ae8915223668e102a017ee730a7b09",
-                "sha256:0d38b16d8bf98eb946804cdab45b444007bd6d4bfe668a60f8592e1a35324861"
+                "sha256:6fd47ce1ff97bc0a63ca82b243d8d79b07ba5a10df65abe381ab6a5c4c3ed58e",
+                "sha256:3c9633c7078f48370df9ee34784a3e4b30e46907f1b23f6faa4af7ed37e6ae19"
             ],
-            "version": "==0.2.0"
+            "version": "==0.2.1"
         },
         "django-filter": {
             "hashes": [
