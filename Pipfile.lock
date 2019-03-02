@@ -803,10 +803,10 @@
         },
         "astroid": {
             "hashes": [
-                "sha256:292fa429e69d60e4161e7612cb7cc8fa3609e2e309f80c224d93a76d5e7b58be",
-                "sha256:c7013d119ec95eb626f7a2011f0b63d0c9a095df9ad06d8507b37084eada1a8d"
+                "sha256:e02093b94fe512fd38228378b99468c9bacb4d51448952374a1acf9ffa4df3e2",
+                "sha256:f249c424976f0eb6d46ab4101176264ab3375839c81c8f068e3c173d22f2d460"
             ],
-            "version": "==2.0.4"
+            "version": "==2.2.1"
         },
         "atomicwrites": {
             "hashes": [
