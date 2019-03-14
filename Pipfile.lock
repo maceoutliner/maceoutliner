@@ -863,10 +863,10 @@
         },
         "configparser": {
             "hashes": [
-                "sha256:5308b47021bc2340965c371f0f058cc6971a04502638d4244225c49d80db273a"
+                "sha256:27594cf4fc279f321974061ac69164aaebd2749af962ac8686b20503ac0bcf2d",
+                "sha256:9d51fe0a382f05b6b117c5e601fc219fede4a8c71703324af3f7d883aef476a3"
             ],
-            "markers": "python_version < '3.2'",
-            "version": "==3.5.0"
+            "version": "==3.7.3"
         },
         "coverage": {
             "hashes": [
