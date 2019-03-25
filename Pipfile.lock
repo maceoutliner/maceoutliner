@@ -1312,10 +1312,9 @@
         },
         "python-gettext": {
             "hashes": [
-                "sha256:f40540324edc600e33df7aaf840aec7a4021d3b0615830918c231eb1d7163456"
+                "sha256:626b501a51ac892fc3460cf550e60dca121f544eaa46eb69c90ce4682fc7ec02"
             ],
-            "index": "pypi",
-            "version": "==3.0"
+            "version": "==4.0"
         },
         "pytz": {
             "hashes": [
