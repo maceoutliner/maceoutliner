@@ -589,10 +589,10 @@
         },
         "pytest-runner": {
             "hashes": [
-                "sha256:d23f117be39919f00dd91bffeb4f15e031ec797501b717a245e377aee0f577be",
-                "sha256:d987fec1e31287592ffe1cb823a8c613c533db4c6aaca0ee1191dbc91e2fcc61"
+                "sha256:c6c18d950091ffaef09d0ab5411dd2808b2ea3e0297354a5e6d26c79b775df16",
+                "sha256:d90e83b203bd5979c7c3c7e9065f20eaa04cf96623b8712d19cfc7c048f3d1ef"
             ],
-            "version": "==4.2"
+            "version": "==5.0"
         },
         "python-dateutil": {
             "hashes": [
