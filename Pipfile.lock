@@ -220,10 +220,9 @@
         },
         "django-classy-tags": {
             "hashes": [
-                "sha256:792f9161d0e22d55b4fab6fc297bab8ab072ffaa3075b227613a6d8473624db8",
-                "sha256:f6d12f5a4df3e387795a0d9ef2836af389cae9a1fbebda035dac043d4722b1f7"
+                "sha256:38b4546a8053499e2fef7af679a58d7c868298717d645b8b8227acba5fd4bf2b"
             ],
-            "version": "==0.8.0"
+            "version": "==0.9.0"
         },
         "django-compressor": {
             "hashes": [
