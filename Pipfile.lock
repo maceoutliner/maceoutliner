@@ -684,10 +684,9 @@
         },
         "unidecode": {
             "hashes": [
-                "sha256:72f49d3729f3d8f5799f710b97c1451c5163102e76d64d20e170aedbbd923582",
-                "sha256:8c33dd588e0c9bc22a76eaa0c715a5434851f726131bd44a6c26471746efabf5"
+                "sha256:8c698f567aa098aeacfbad2d4a416f9803236bdc5ece09653b6e6dfe3f03f102"
             ],
-            "version": "==1.0.22"
+            "version": "==1.1.0"
         },
         "uritemplate": {
             "hashes": [
