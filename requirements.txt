@@ -31,7 +31,7 @@ django-q-sentry==0.1.1
 django-q==0.9.4
 django-redis==4.9.0
 django-rest-framework-rules==1.0.0
-django-storages==1.6.6
+django-storages==1.7.1
 django-taggit==0.22.2
 django-treebeard==4.3
 django==2.1a1
@@ -60,14 +60,14 @@ raven==6.9.0
 rcssmin==1.0.6
 redis==2.10.6
 requests-oauthlib==0.8.0
-requests==2.18.4
+requests==2.22.0
 rjsmin==1.0.12
 rules==1.3
 s3transfer==0.1.13
 six==1.11.0
 unidecode==1.0.22
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.25.3
 waitress==1.1.0
 wcwidth==0.1.7
 wheel==0.31.1
