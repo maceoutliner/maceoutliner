@@ -46,10 +46,10 @@
         },
         "blessed": {
             "hashes": [
-                "sha256:9a0a98c7070b016341ae0300415deeda930a340ef7961d9b920a5cb200a601e2",
-                "sha256:777b0b6b5ce51f3832e498c22bc6a093b6b5f99148c7cbf866d26e2dec51ef21"
+                "sha256:34b78e9b56c2ba2f6a9a625cc989d6cf4ae8ae87dcc4ed8ad144660ae4cf7784",
+                "sha256:b3ffcc7e840b116fa611ec59bb4ec29a092caca84dfde6d8a6c7d3ff247b2cad"
             ],
-            "version": "==1.15.0"
+            "version": "==1.16.0"
         },
         "boto3": {
             "hashes": [
