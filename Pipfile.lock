@@ -1222,10 +1222,9 @@
         },
         "pytest-forked": {
             "hashes": [
-                "sha256:5fe33fbd07d7b1302c95310803a5e5726a4ff7f19d5a542b7ce57c76fed8135f",
-                "sha256:d352aaced2ebd54d42a65825722cb433004b4446ab5d2044851d9cc7a00c9e38"
+                "sha256:e2d46f319c8063a3a0536b18f9cdea6eea3bc9fe2cb16c94e1d6fad3abc37300"
             ],
-            "version": "==1.0.2"
+            "version": "==1.1.1"
         },
         "pytest-sugar": {
             "hashes": [
