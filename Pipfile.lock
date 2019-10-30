@@ -657,9 +657,9 @@
         },
         "rules": {
             "hashes": [
-                "sha256:da47c407e1af2fa5a500658fb6575ced4893dacaf65f1d576ead04956a9c3dae"
+                "sha256:2c0a3707e5e935a883ef8fe65fd080e7169f67ac1ef0c5e2d2e6932cb3ef5318"
             ],
-            "version": "==2.0.1"
+            "version": "==2.1"
         },
         "s3transfer": {
             "hashes": [
