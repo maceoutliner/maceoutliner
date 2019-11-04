@@ -35,7 +35,7 @@ django-rest-framework-rules==1.0.0
 django-storages==1.7.1
 django-taggit==1.1.0
 django-treebeard==4.3
-django==2.2.2
+django==2.2.7
 djangorestframework==3.9.4
 docutils==0.14
 gevent==1.4.0
