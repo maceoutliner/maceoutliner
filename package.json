@@ -2,7 +2,7 @@
   "name": "maceoutliner",
   "version": "0.1.0",
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.13.4"
   },
   "devDependencies": {
     "autoprefixer-core": "~5.2.1",
