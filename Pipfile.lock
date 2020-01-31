@@ -224,9 +224,9 @@
         },
         "django-classy-tags": {
             "hashes": [
-                "sha256:38b4546a8053499e2fef7af679a58d7c868298717d645b8b8227acba5fd4bf2b"
+                "sha256:ad6a25fc2b58a098f00d86bd5e5dad47922f5ca4e744bc3cccb7b4be5bc35eb1"
             ],
-            "version": "==0.9.0"
+            "version": "==1.0.0"
         },
         "django-compressor": {
             "hashes": [
