@@ -960,9 +960,9 @@
         },
         "ipdb": {
             "hashes": [
-                "sha256:dce2112557edfe759742ca2d0fee35c59c97b0cc7a05398b791079d78f1519ce"
+                "sha256:5d9a4a0e3b7027a158fc6f2929934341045b9c3b0b86ed5d7e84e409653f72fd"
             ],
-            "version": "==0.12"
+            "version": "==0.12.3"
         },
         "ipython": {
             "hashes": [
