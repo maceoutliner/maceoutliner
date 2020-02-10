@@ -1292,10 +1292,10 @@
         },
         "sphinx": {
             "hashes": [
-                "sha256:22538e1bbe62b407cf5a8aabe1bb15848aa66bb79559f42f5202bbce6b757a69",
-                "sha256:f9a79e746b87921cabc3baa375199c6076d1270cee53915dbd24fdbeaaacc427"
+                "sha256:b3feeed2da588adabd0db5329a309f27317e98382122721511e901833d092028",
+                "sha256:fb2ce74c28154872757925edda0060b4c4102cdc86b8b30063f23399678de2ca"
             ],
-            "version": "==2.1.2"
+            "version": "==2.4.0"
         },
         "sphinx-autobuild": {
             "hashes": [
