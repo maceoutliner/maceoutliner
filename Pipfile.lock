@@ -982,10 +982,10 @@
         },
         "jedi": {
             "hashes": [
-                "sha256:49ccb782651bb6f7009810d17a3316f8867dde31654c750506970742e18b553d",
-                "sha256:79d0f6595f3846dffcbe667cc6dc821b96e5baa8add125176c31a3917eb19d58"
+                "sha256:b4f4052551025c6b0b0b193b29a6ff7bdb74c52450631206c262aef9f7159ad2",
+                "sha256:d5c871cb9360b414f981e7072c52c33258d598305280fef91c6cae34739d65d5"
             ],
-            "version": "==0.14.0"
+            "version": "==0.16.0"
         },
         "jinja2": {
             "hashes": [
