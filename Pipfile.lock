@@ -295,10 +295,10 @@
         },
         "django-q": {
             "hashes": [
-                "sha256:229dd0806088a3606bad999749c5260b0fb926db7181f75620d0e76f35f1ab88",
-                "sha256:b958904887bef8948761d419f4d8258483be4f75884833d5d75e5ccd54ecb89e"
+                "sha256:835b591ddff588104b5cb495c62b949d2330b01426159144b63919fd491bc808",
+                "sha256:da7dd0ab5caed1080e5d7c28c3594e1211c174eca2aff848ce44dc05093532a5"
             ],
-            "version": "==1.0.1"
+            "version": "==1.2.0"
         },
         "django-q-sentry": {
             "hashes": [
