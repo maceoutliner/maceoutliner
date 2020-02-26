@@ -882,10 +882,10 @@
         },
         "django-extensions": {
             "hashes": [
-                "sha256:097450a56fcfdef36bb4dd731b113d1b3e9a9de715fc8775e5e84ab3be50dd96",
-                "sha256:a1799a7eb4cf0f7aa0d111bac79047227b55a74d11741f387708023a012662f9"
+                "sha256:1a03c4e8bade575f8c2be6c76456f8a2be3f9b02ab9f47d3535afa9562dc0493",
+                "sha256:2699cc1d6fb4bd393c0b5832fea4bc685f2ace5800b3c9ff222b2080f161ac04"
             ],
-            "version": "==2.1.9"
+            "version": "==2.2.8"
         },
         "django-test-plus": {
             "hashes": [
