@@ -210,11 +210,10 @@
         },
         "django-braces": {
             "hashes": [
-                "sha256:a457d74ea29478123c0c4652272681b3cea0bf1232187fd9f9b6f1d97d32a890",
-                "sha256:ba68e98b817c6f01d71d10849f359979617b3fe4cefb7f289adefddced092ddc"
+                "sha256:83705b78948de00804bfacf40c315d001bb39630f35bbdd8588211c2d5b4d43f",
+                "sha256:a6d9b34cf3e4949635e54884097c30410d7964fc7bec7231445ea7079b8c5722"
             ],
-            "index": "pypi",
-            "version": "==1.13.0"
+            "version": "==1.14.0"
         },
         "django-classy-tags": {
             "hashes": [
