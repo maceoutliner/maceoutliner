@@ -230,10 +230,10 @@
         },
         "django-cookie-law": {
             "hashes": [
-                "sha256:cb8500c5db6285e31fd2ce224eadcda9834e79fe39031fc79e69371fe4f9ad7b"
+                "sha256:e4cedeabf123e05642dfc19dd89b6615a6df6d7b60a0c33b489501c4a0d25e9b",
+                "sha256:fcd8d83727d4983a9cce9dae1dc60385b3d1a57176017852d24d8473efde61c5"
             ],
-            "index": "pypi",
-            "version": "==2.0.1"
+            "version": "==2.0.3"
         },
         "django-environ": {
             "hashes": [
