@@ -72,5 +72,5 @@ urllib3==1.25.8
 waitress==1.4.3
 wcwidth==0.1.7
 wheel==0.33.4
-whitenoise==4.1.2
+whitenoise==5.0.1
 -e git+https://github.com/ubernostrum/django-registration.git@f957d2824cf77820287da2993fca44d6445c592d#egg=django-registration
