@@ -12,7 +12,7 @@ confusable-homoglyphs==3.2.0
 coreapi==2.3.3
 coreschema==0.0.4
 defusedxml==0.6.0
-django-allauth==0.39.1
+django-allauth==0.41.0
 django-anymail==6.0.1
 django-appconf==1.0.3
 django-avatar==4.1.0
