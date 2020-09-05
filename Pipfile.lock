@@ -37,10 +37,10 @@
         },
         "arrow": {
             "hashes": [
-                "sha256:03404b624e89ac5e4fc19c52045fa0f3203419fd4dd64f6e8958c522580a574a",
-                "sha256:41be7ea4c53c2cf57bf30f2d614f60c411160133f7a0a8c49111c30fb7e725b5"
+                "sha256:92aac856ea5175c804f7ccb96aca4d714d936f1c867ba59d747a8096ec30e90a",
+                "sha256:98184d8dd3e5d30b96c2df4596526f7de679ccb467f358b82b0f686436f3a6b8"
             ],
-            "version": "==0.14.2"
+            "version": "==0.16.0"
         },
         "blessed": {
             "hashes": [
