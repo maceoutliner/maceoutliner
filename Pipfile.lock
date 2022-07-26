@@ -70,11 +70,8 @@
             "version": "==0.7.0"
         },
         "certifi": {
-            "hashes": [
-                "sha256:046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939",
-                "sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"
-            ],
-            "version": "==2019.6.16"
+            "hashes": [],
+            "version": "==2022.6.15"
         },
         "cffi": {
             "hashes": [
@@ -782,11 +779,8 @@
             "version": "==19.3b0"
         },
         "certifi": {
-            "hashes": [
-                "sha256:046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939",
-                "sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"
-            ],
-            "version": "==2019.6.16"
+            "hashes": [],
+            "version": "==2022.6.15"
         },
         "chardet": {
             "hashes": [
