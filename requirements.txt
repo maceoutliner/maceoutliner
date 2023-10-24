@@ -1,5 +1,5 @@
 -i
-argon2-cffi==19.1.0
+argon2-cffi==23.1.0
 arrow==0.14.2
 blessed==1.15.0
 boto3==1.9.173
