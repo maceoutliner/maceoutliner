@@ -10,7 +10,7 @@ attrs==19.1.0
 babel==2.7.0
 backcall==0.1.0
 black==19.3b0
-certifi==2019.6.16
+certifi==2024.2.2
 chardet==3.0.4
 click==7.0
 configparser==3.7.4
